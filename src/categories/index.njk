@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+title: Categories
+permalink: /categories/
+---
+<h1>Categories</h1>
+<ul class="category-list">
+  {% for name in collections.categoryNames %}
+  <li><a href="/categories/{{ name | slugify }}/">{{ name }}</a> <span class="count">({{ collections.byCategory[name].length }})</span></li>
+  {% endfor %}
+</ul>

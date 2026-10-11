@@ -1,0 +1,27 @@
+---
+layout: layouts/base.njk
+title: Home
+---
+<section class="hero">
+  <h1>Just Recipes</h1>
+  <p>A family cookbook, kept simple and ad-free. Browse by category or use search to find a recipe by name or ingredient.</p>
+  <a class="button" href="/search/">Search recipes</a>
+</section>
+
+<section class="category-grid">
+  <h2>Categories</h2>
+  <ul class="category-list">
+    {% for name in collections.categoryNames %}
+    <li><a href="/categories/{{ name | slugify }}/">{{ name }}</a> <span class="count">({{ collections.byCategory[name].length }})</span></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section class="all-recipes">
+  <h2>All Recipes A-Z</h2>
+  <ul class="recipe-index">
+    {% for recipe in collections.recipesAZ %}
+    <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a> <span class="category-tag">{{ recipe.data.category }}</span></li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,23 @@
+---
+layout: layouts/base.njk
+---
+<article class="recipe" data-pagefind-body>
+  <p class="breadcrumb"><a href="/categories/{{ category | slugify }}/">{{ category }}</a></p>
+  <h1>{{ title }}</h1>
+
+  <div class="recipe-meta">
+    {% if prep %}<span><strong>Prep:</strong> {{ prep }}</span>{% endif %}
+    {% if cook %}<span><strong>Cook:</strong> {{ cook }}</span>{% endif %}
+    {% if servings %}<span><strong>Serves:</strong> {{ servings }}</span>{% endif %}
+  </div>
+
+  {% if tags and tags.length %}
+  <div class="recipe-tags">
+    {% for tag in tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+  </div>
+  {% endif %}
+
+  {{ content | safe }}
+
+  {% if source %}<p class="recipe-source"><em>Source: {{ source }}</em></p>{% endif %}
+</article>

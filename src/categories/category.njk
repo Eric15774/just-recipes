@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.categoryNames
+  size: 1
+  alias: categoryName
+permalink: "/categories/{{ categoryName | slugify }}/"
+eleventyComputed:
+  title: "{{ categoryName }}"
+---
+<p class="breadcrumb"><a href="/categories/">All categories</a></p>
+<h1>{{ categoryName }}</h1>
+<ul class="recipe-index">
+  {% for recipe in collections.byCategory[categoryName] %}
+  <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a></li>
+  {% endfor %}
+</ul>
