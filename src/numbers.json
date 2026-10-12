@@ -1,0 +1,57 @@
+[
+  {
+    "group": "Food Safety",
+    "items": [
+      { "value": "165°F", "label": "Minimum safe internal temperature for all poultry, whole or ground, and for reheated leftovers (74°C)." },
+      { "value": "160°F", "label": "Safe internal temperature for ground beef, pork, veal, and lamb (71°C). Ground poultry needs 165°F." },
+      { "value": "145°F", "label": "Safe internal temperature for steaks, roasts, and chops of beef, pork, veal, and lamb, followed by a 3 minute rest (63°C)." },
+      { "value": "40°F", "label": "The highest safe refrigerator temperature (4°C). Aim for 34 to 38°F." },
+      { "value": "0°F", "label": "Freezer temperature. Frozen food should arrive and stay frozen solid at this temperature or below (-18°C)." },
+      { "value": "2 hours", "label": "Maximum time perishable food should sit at room temperature. Only 1 hour when it is above 90°F." },
+      { "value": "3 to 4 days", "label": "How long leftovers keep in the refrigerator." },
+      { "value": "24 hours", "label": "Refrigerator thawing time for every 4 to 5 pounds of turkey. A 15 pound bird needs about 3 days." }
+    ]
+  },
+  {
+    "group": "Oven and Cooking Temperatures",
+    "items": [
+      { "value": "325°F", "label": "Standard temperature for roasting meats, poultry, and vegetables." },
+      { "value": "350°F", "label": "The most common baking temperature for cakes, cookies, and quick breads." },
+      { "value": "375°F", "label": "Common temperature for pies, tarts, and fritters." },
+      { "value": "400°F", "label": "Typical temperature for pizza and other high heat baking." },
+      { "value": "500°F", "label": "Very high heat for crisp pizza crusts and crusty breads." },
+      { "value": "350 to 410°F", "label": "Smoke point of extra virgin olive oil. Refined or light olive oil handles higher heat, around 465°F." }
+    ]
+  },
+  {
+    "group": "Water and Sugar",
+    "items": [
+      { "value": "32°F", "label": "Freezing point of water (0°C)." },
+      { "value": "212°F", "label": "Boiling point of water at sea level (100°C). Water boils about 1°F lower for every 500 feet of elevation." },
+      { "value": "223 to 235°F", "label": "Thread stage. Syrup forms thin threads, used for syrups and glazes." },
+      { "value": "235 to 245°F", "label": "Soft ball stage, used for fudge and pralines." },
+      { "value": "320 to 340°F", "label": "Sugar begins to caramelize and turn amber." }
+    ]
+  },
+  {
+    "group": "Measurements",
+    "items": [
+      { "value": "1 tsp = 5 mL", "label": "Useful for measuring small volumes." },
+      { "value": "1 tbsp = 3 tsp", "label": "Common conversion for spices and small amounts." },
+      { "value": "1 cup = 240 mL", "label": "Standard metric cup used on nutrition labels." },
+      { "value": "4 cups = 1 quart", "label": "A common unit of liquid measurement in the United States." },
+      { "value": "454 g = 1 lb", "label": "Weight of one pound in grams." },
+      { "value": "60 to 100 drops", "label": "Approximate number of drops in a teaspoon. It depends on the dropper and the liquid." }
+    ]
+  },
+  {
+    "group": "Ratios and Rules of Thumb",
+    "items": [
+      { "value": "2 : 1", "label": "Water to rice for long grain white rice (2 parts water to 1 part rice)." },
+      { "value": "1/4 tsp", "label": "Typical amount of salt per 1 cup of all-purpose flour in baking." },
+      { "value": "20%", "label": "Common fat percentage in ground beef for burgers (80/20)." },
+      { "value": "5 to 10 minutes", "label": "Resting time for steaks after cooking. Large roasts need 15 to 20 minutes." },
+      { "value": "1.618", "label": "The golden ratio. Interesting to experiment with in the kitchen, though not a proven cooking rule.", "link": "/by-the-numbers/golden-ratio/" }
+    ]
+  }
+]
