@@ -1,0 +1,1583 @@
+[
+  {
+    "letter": "A",
+    "items": [
+      {
+        "term": "À la Créole",
+        "id": "a-la-creole",
+        "definition": "Cooked with tomatoes, onions, and peppers."
+      },
+      {
+        "term": "À la Printanière",
+        "id": "a-la-printaniere",
+        "definition": "A soup or stew served with young spring vegetables."
+      },
+      {
+        "term": "Aerate",
+        "id": "aerate",
+        "definition": "To incorporate air into a mixture, often by whipping, to create a lighter texture."
+      },
+      {
+        "term": "Affogato",
+        "id": "affogato",
+        "definition": "An Italian dessert made by pouring a shot of hot espresso over a scoop of vanilla ice cream or gelato."
+      },
+      {
+        "term": "Agar-Agar",
+        "id": "agar-agar",
+        "definition": "A vegetarian gelatin substitute made from seaweed, used in various culinary applications to set or thicken foods."
+      },
+      {
+        "term": "Aglio e Olio",
+        "id": "aglio-e-olio",
+        "definition": "An Italian pasta dish made with garlic (aglio) and olive oil (olio), often seasoned with red pepper flakes and parsley."
+      },
+      {
+        "term": "Ahi Poke",
+        "id": "ahi-poke",
+        "definition": "A Hawaiian dish made from raw, cubed tuna mixed with seasonings like soy sauce, sesame oil, and green onions."
+      },
+      {
+        "term": "Aioli",
+        "id": "aioli",
+        "definition": "A Mediterranean sauce made with garlic, olive oil, and egg yolk, similar to mayonnaise."
+      },
+      {
+        "term": "Al Dente",
+        "id": "al-dente",
+        "definition": "An Italian term used to describe pasta that is cooked to be firm when bitten."
+      },
+      {
+        "term": "Amaranth",
+        "id": "amaranth",
+        "definition": "A tiny gluten-free seed, cooked like a grain, often used in porridge or as a salad ingredient."
+      },
+      {
+        "term": "Amuse-Bouche",
+        "id": "amuse-bouche",
+        "definition": "A single, bite-sized appetizer often served as a culinary gift from the chef before the meal."
+      },
+      {
+        "term": "Anchovy",
+        "id": "anchovy",
+        "definition": "A small, strongly flavored fish used as a condiment or ingredient in various dishes, especially salads, dressings, and sauces."
+      },
+      {
+        "term": "Aperitif",
+        "id": "aperitif",
+        "definition": "A pre-dinner drink, often alcoholic, that is intended to stimulate the appetite."
+      },
+      {
+        "term": "Apple Pie",
+        "id": "apple-pie",
+        "definition": "A classic American dessert made with sliced apples and a pastry crust."
+      },
+      {
+        "term": "Apron",
+        "id": "apron",
+        "definition": "A protective garment worn in the kitchen to shield clothing from spills and stains."
+      },
+      {
+        "term": "Aspic",
+        "id": "aspic",
+        "definition": "A savory jelly for meats, fish, vegetables, and salads. Frequently used as a garnish."
+      },
+      {
+        "term": "Au Gratin",
+        "id": "au-gratin",
+        "definition": "A dish that is topped with breadcrumbs or cheese and browned in the oven, often used for casseroles and vegetables."
+      }
+    ]
+  },
+  {
+    "letter": "B",
+    "items": [
+      {
+        "term": "Baba Au Rhum",
+        "id": "baba-au-rhum",
+        "definition": "A French dessert, typically a small yeast cake soaked in rum syrup and sometimes served with whipped cream."
+      },
+      {
+        "term": "Baba Ghanoush",
+        "id": "baba-ghanoush",
+        "definition": "A Middle Eastern dip or spread made from roasted eggplant, tahini, lemon juice, and garlic."
+      },
+      {
+        "term": "Babka",
+        "id": "babka",
+        "definition": "A sweet, twisted bread or cake, typically filled with chocolate, cinnamon, or fruit, often of Jewish origin."
+      },
+      {
+        "term": "Baguette",
+        "id": "baguette",
+        "definition": "A long, thin French bread with a crisp crust and soft interior."
+      },
+      {
+        "term": "Bain-Marie",
+        "id": "bain-marie",
+        "definition": "A water bath used to gently cook or keep dishes warm, often used for custards and delicate sauces."
+      },
+      {
+        "term": "Bake",
+        "id": "bake",
+        "definition": "To cook food in an oven using dry heat, often used for bread, cakes, and casseroles."
+      },
+      {
+        "term": "Baking Powder",
+        "id": "baking-powder",
+        "definition": "A leavening agent that helps baked goods rise by producing carbon dioxide gas when mixed with liquid and exposed to heat."
+      },
+      {
+        "term": "Baking Soda",
+        "id": "baking-soda",
+        "definition": "A leavening agent that reacts with acid to produce carbon dioxide gas, making baked goods rise."
+      },
+      {
+        "term": "Baklava",
+        "id": "baklava",
+        "definition": "A sweet pastry made of layers of filo dough filled with chopped nuts and sweetened with honey or syrup."
+      },
+      {
+        "term": "Bamboo Steamer",
+        "id": "bamboo-steamer",
+        "definition": "A traditional Asian cooking tool made of bamboo, used for steaming food."
+      },
+      {
+        "term": "Barbecue (BBQ)",
+        "id": "barbecue-bbq",
+        "definition": "A method of cooking that involves slow-cooking meat over low, indirect heat, often with a flavorful wood smoke for added taste."
+      },
+      {
+        "term": "Barding",
+        "id": "barding",
+        "definition": "The process of wrapping meat, usually lean cuts, with strips of fat (like bacon) to add moisture and flavor during cooking."
+      },
+      {
+        "term": "Baste",
+        "id": "baste",
+        "definition": "To drizzle or brush a liquid, such as pan juices or marinade, over food while it's cooking to keep it moist and add flavor."
+      },
+      {
+        "term": "Béarnaise Sauce",
+        "id": "bearnaise-sauce",
+        "definition": "A rich and creamy sauce made with clarified butter, egg yolks, white wine vinegar, and herbs, typically served with steak or grilled meats."
+      },
+      {
+        "term": "Bechamel",
+        "id": "bechamel",
+        "definition": "A white sauce made by thickening milk with a roux (butter and flour), often used as a base for other sauces."
+      },
+      {
+        "term": "Beurre Blanc",
+        "id": "beurre-blanc",
+        "definition": "A French butter sauce made with white wine, vinegar, and shallots, often served with fish or seafood."
+      },
+      {
+        "term": "Biltong",
+        "id": "biltong",
+        "definition": "A type of dried, cured meat, often associated with South African cuisine, similar to beef jerky."
+      },
+      {
+        "term": "Bisque",
+        "id": "bisque",
+        "definition": "A thick cream sauce or soup generally made from shellfish."
+      },
+      {
+        "term": "Blackened",
+        "id": "blackened",
+        "definition": "A cooking technique that involves searing meat or fish with a spicy seasoning blend, creating a charred crust."
+      },
+      {
+        "term": "Blanch",
+        "id": "blanch",
+        "definition": "Briefly immersing food in boiling water and then immediately transferring it to ice water to halt the cooking process, often used for vegetables."
+      },
+      {
+        "term": "Blind Baking",
+        "id": "blind-baking",
+        "definition": "Pre-baking a pie crust without the filling to ensure it's fully cooked before adding a wet filling."
+      },
+      {
+        "term": "Blintz",
+        "id": "blintz",
+        "definition": "A filled and folded pancake, typically with a sweet or savory filling."
+      },
+      {
+        "term": "Boiling",
+        "id": "boiling",
+        "definition": "Cooking food in boiling water or other liquids, such as pasta, rice, or vegetables."
+      },
+      {
+        "term": "Bombe",
+        "id": "bombe",
+        "definition": "Two frozen mixtures molded together, one used as the lining, the other as the center of the mold. This technique originated in 19th-century French cuisine and remains a classic method for creating impressive layered frozen desserts that reveal beautiful cross-sections when served."
+      },
+      {
+        "term": "Bouillabaisse",
+        "id": "bouillabaisse",
+        "definition": "A traditional Provençal fish stew made with a variety of seafood, flavored with herbs and spices and served with a side of rouille sauce."
+      },
+      {
+        "term": "Bouillon",
+        "id": "bouillon",
+        "definition": "A clear, flavorful broth made by simmering meat, vegetables, and seasonings."
+      },
+      {
+        "term": "Bouquet Garni",
+        "id": "bouquet-garni",
+        "definition": "A bundle of fresh herbs tied together and used to flavor soups, stews, and sauces."
+      },
+      {
+        "term": "Braise",
+        "id": "braise",
+        "definition": "To slow-cook meat or vegetables in a small amount of liquid, often in a covered pot, to achieve tenderness."
+      },
+      {
+        "term": "Broil",
+        "id": "broil",
+        "definition": "Cooking food by exposing it to direct heat from the broiler element in an oven, typically used for browning the top of dishes."
+      },
+      {
+        "term": "Burmese Tofu",
+        "id": "burmese-tofu",
+        "definition": "A soy-free tofu alternative made from chickpea flour, popular in Burmese cuisine."
+      }
+    ]
+  },
+  {
+    "letter": "C",
+    "items": [
+      {
+        "term": "Cabbage",
+        "id": "cabbage",
+        "definition": "A leafy green vegetable often used in salads, coleslaw, and soups."
+      },
+      {
+        "term": "Canapé",
+        "id": "canape",
+        "definition": "A small, decorative, and appetizing food item often served as an hors d'oeuvre at parties and events."
+      },
+      {
+        "term": "Candying",
+        "id": "candying",
+        "definition": "Coating or preserving fruits, nuts, or other foods with a sugar syrup to create a sweet, glossy finish."
+      },
+      {
+        "term": "Capon",
+        "id": "capon",
+        "definition": "A rooster that was castrated young, which makes the meat tender and well marbled. Often roasted and served on special occasions."
+      },
+      {
+        "term": "Caramel",
+        "id": "caramel",
+        "definition": "A sweet substance made by heating sugar until it melts and turns brown, used for candies and desserts."
+      },
+      {
+        "term": "Caramelization",
+        "id": "caramelization",
+        "definition": "The browning of sugar through heat, creating a rich, sweet flavor and a golden to dark brown color."
+      },
+      {
+        "term": "Celeriac",
+        "id": "celeriac",
+        "definition": "A variety of celery cultivated for its knobby, bulbous root, often used in soups, mashes, and slaws."
+      },
+      {
+        "term": "Ceviche",
+        "id": "ceviche",
+        "definition": "A Latin American dish in which raw seafood (typically fish or shrimp) is marinated in citrus juice, which \"cooks\" the seafood by denaturing the proteins."
+      },
+      {
+        "term": "Chai Latte",
+        "id": "chai-latte",
+        "definition": "A popular spiced tea beverage made with black tea, milk, and a blend of aromatic spices like cinnamon, cardamom, and ginger."
+      },
+      {
+        "term": "Chiffon Cake",
+        "id": "chiffon-cake",
+        "definition": "A light and airy cake made with vegetable oil, egg yolks, meringue, and flour, resulting in a fluffy texture."
+      },
+      {
+        "term": "Chiffonade",
+        "id": "chiffonade",
+        "definition": "Thin strips or ribbons of herbs or leafy greens, often used as a garnish."
+      },
+      {
+        "term": "Chimichanga",
+        "id": "chimichanga",
+        "definition": "A deep-fried burrito typically filled with a variety of ingredients, often found in Tex-Mex cuisine."
+      },
+      {
+        "term": "Chimichurri",
+        "id": "chimichurri",
+        "definition": "A vibrant green sauce made with fresh herbs, garlic, vinegar, and olive oil, typically served with grilled meats, especially in Argentine cuisine."
+      },
+      {
+        "term": "Chopping",
+        "id": "chopping",
+        "definition": "Cutting food into rough, irregular pieces, commonly used for herbs, onions, and garlic."
+      },
+      {
+        "term": "Chutney",
+        "id": "chutney",
+        "definition": "A condiment made from a mixture of fruits, vinegar, sugar, and spices, often served with savory dishes."
+      },
+      {
+        "term": "Clarify",
+        "id": "clarify",
+        "definition": "To remove impurities and solids from a liquid, typically done with butter for a clear clarified butter."
+      },
+      {
+        "term": "Compote",
+        "id": "compote",
+        "definition": "A dessert made by stewing fruit in sugar syrup, often served as a topping or side."
+      },
+      {
+        "term": "Confit",
+        "id": "confit",
+        "definition": "A cooking method where food, often poultry or duck, is slowly cooked and preserved in its own fat."
+      },
+      {
+        "term": "Convection Oven",
+        "id": "convection-oven",
+        "definition": "An oven that uses a fan to circulate hot air, cooking food more evenly and quickly."
+      },
+      {
+        "term": "Coulis",
+        "id": "coulis",
+        "definition": "A thick puree or sauce made from fruits, vegetables, or herbs, used as a garnish or flavoring."
+      },
+      {
+        "term": "Couscous",
+        "id": "couscous",
+        "definition": "Small granules of pasta made from semolina wheat, often used as a side dish or base for salads."
+      },
+      {
+        "term": "Cream",
+        "id": "cream",
+        "definition": "To beat together fat (usually butter) and sugar until light and fluffy."
+      },
+      {
+        "term": "Croutons",
+        "id": "croutons",
+        "definition": "Bread of various shapes and sizes, fried (or toasted) golden brown."
+      },
+      {
+        "term": "Crust",
+        "id": "crust",
+        "definition": "The outer, baked portion of bread, pie, or other baked goods."
+      },
+      {
+        "term": "Cumin",
+        "id": "cumin",
+        "definition": "A spice with a warm, earthy flavor often used in Indian and Mexican cuisines."
+      }
+    ]
+  },
+  {
+    "letter": "D",
+    "items": [
+      {
+        "term": "Dacquoise",
+        "id": "dacquoise",
+        "definition": "A dessert made from layers of nut meringue, typically filled with whipped cream, buttercream, or other fillings."
+      },
+      {
+        "term": "Dashi",
+        "id": "dashi",
+        "definition": "A Japanese stock made from dried fish flakes (katsuobushi) and seaweed (kombu), commonly used in soups and broths."
+      },
+      {
+        "term": "Deglaze",
+        "id": "deglaze",
+        "definition": "Add liquid (often wine or broth) to a pan to loosen browned bits of food and create a flavorful sauce."
+      },
+      {
+        "term": "Degrease",
+        "id": "degrease",
+        "definition": "To remove excess fat or oil from the surface of soups, stews, or sauces."
+      },
+      {
+        "term": "Degustation",
+        "id": "degustation",
+        "definition": "A tasting menu featuring small portions of multiple dishes, allowing diners to sample a variety of flavors."
+      },
+      {
+        "term": "Demi-Glace",
+        "id": "demi-glace",
+        "definition": "A rich and highly concentrated brown sauce used as a base for many other sauces in French cuisine."
+      },
+      {
+        "term": "Dicing",
+        "id": "dicing",
+        "definition": "Cutting food into small, uniform cubes."
+      },
+      {
+        "term": "Dollop",
+        "id": "dollop",
+        "definition": "A small, spoonful of a thick or creamy substance, often used as a garnish."
+      },
+      {
+        "term": "Dosa",
+        "id": "dosa",
+        "definition": "A South Indian fermented crepe or pancake made from rice and lentil batter, typically served with various chutneys and sambar."
+      },
+      {
+        "term": "Dough",
+        "id": "dough",
+        "definition": "A mixture of flour, water, and other ingredients, such as yeast, used as a base for bread, pastries, and other baked goods."
+      },
+      {
+        "term": "Dredge",
+        "id": "dredge",
+        "definition": "To coat food with flour, breadcrumbs, or other dry ingredients before cooking."
+      },
+      {
+        "term": "Dumpling",
+        "id": "dumpling",
+        "definition": "Small, savory or sweet parcels of dough that are typically boiled, steamed, or fried and can be filled with various ingredients, such as meat, vegetables, or fruit."
+      },
+      {
+        "term": "Dutch Oven",
+        "id": "dutch-oven",
+        "definition": "A heavy, cast-iron pot with a tight-fitting lid, suitable for slow-cooking, braising, and baking."
+      }
+    ]
+  },
+  {
+    "letter": "E",
+    "items": [
+      {
+        "term": "Éclair",
+        "id": "eclair",
+        "definition": "A French pastry filled with cream and topped with chocolate icing."
+      },
+      {
+        "term": "Egg Wash",
+        "id": "egg-wash",
+        "definition": "A mixture of beaten eggs and sometimes milk or water, brushed onto baked goods to give them a shiny, golden crust."
+      },
+      {
+        "term": "Eggplant Parmesan",
+        "id": "eggplant-parmesan",
+        "definition": "A classic Italian dish made by layering slices of eggplant with tomato sauce and cheese, then baking until bubbly and golden."
+      },
+      {
+        "term": "Elderflower",
+        "id": "elderflower",
+        "definition": "The fragrant, white blossoms of the elderberry plant, used to flavor beverages, desserts, and syrups."
+      },
+      {
+        "term": "Empanada",
+        "id": "empanada",
+        "definition": "A pastry turnover filled with various ingredients, such as meat, cheese, or vegetables, popular in Latin American and Spanish cuisines."
+      },
+      {
+        "term": "Emulsifying",
+        "id": "emulsifying",
+        "definition": "Combining two immiscible liquids, such as oil and vinegar, to form a stable mixture, as in salad dressings."
+      },
+      {
+        "term": "En Papillote",
+        "id": "en-papillote",
+        "definition": "A cooking method where food is wrapped in parchment paper and baked, often used for fish."
+      },
+      {
+        "term": "Enoki Mushrooms",
+        "id": "enoki-mushrooms",
+        "definition": "Delicate, thin-stemmed mushrooms used in Asian cuisine, especially in soups, stir-fries, and hot pots."
+      },
+      {
+        "term": "Escargot",
+        "id": "escargot",
+        "definition": "Edible land snails, usually prepared with garlic, butter, and herbs, and served as a delicacy in French cuisine."
+      },
+      {
+        "term": "Espagnole",
+        "id": "espagnole",
+        "definition": "A brown sauce made with brown roux and brown stock, often used as a base for other sauces."
+      },
+      {
+        "term": "Étouffée",
+        "id": "etouffee",
+        "definition": "A Creole dish from Louisiana, typically made with shellfish, vegetables, and a roux-based sauce, served over rice."
+      }
+    ]
+  },
+  {
+    "letter": "F",
+    "items": [
+      {
+        "term": "Farro",
+        "id": "farro",
+        "definition": "An ancient whole grain with a nutty flavor and chewy texture, often used in salads, soups, and side dishes."
+      },
+      {
+        "term": "Fennel",
+        "id": "fennel",
+        "definition": "A bulbous vegetable with a licorice-like flavor, used in salads, as a side dish, or as a flavorful addition to various dishes."
+      },
+      {
+        "term": "Fenugreek",
+        "id": "fenugreek",
+        "definition": "An aromatic spice with a maple-like, slightly bitter flavor, commonly used in Indian and Middle Eastern dishes."
+      },
+      {
+        "term": "Fermentation",
+        "id": "fermentation",
+        "definition": "The process of converting sugars into alcohol and other compounds, widely used in producing various foods, including cheese, dough, yogurt, and sauerkraut."
+      },
+      {
+        "term": "Fillet",
+        "id": "fillet",
+        "definition": "To remove the bones from fish or meat and cut it into boneless pieces."
+      },
+      {
+        "term": "Fillet Knife",
+        "id": "fillet-knife",
+        "definition": "A long, flexible knife used for filleting fish or deboning meat."
+      },
+      {
+        "term": "Flambé",
+        "id": "flambe",
+        "definition": "A cooking technique where alcohol is ignited to create a burst of flames, often used for desserts and certain meat dishes."
+      },
+      {
+        "term": "Folding",
+        "id": "folding",
+        "definition": "Gently combining delicate ingredients without deflating them, commonly used in baking and mousse making."
+      },
+      {
+        "term": "Fougasse",
+        "id": "fougasse",
+        "definition": "A type of French flatbread, often shaped to resemble an ear of wheat, and flavored with various ingredients like olives or herbs."
+      },
+      {
+        "term": "Fregola",
+        "id": "fregola",
+        "definition": "A type of Sardinian pasta made from semolina dough that's rolled into small, irregularly shaped balls and toasted."
+      },
+      {
+        "term": "Frittata",
+        "id": "frittata",
+        "definition": "An Italian omelet typically filled with various ingredients and cooked in a skillet."
+      },
+      {
+        "term": "Fry",
+        "id": "fry",
+        "definition": "To cook food in hot oil. Deep-frying fully submerges the food; pan-frying (shallow frying) partly submerges it."
+      },
+      {
+        "term": "Fumé",
+        "id": "fume",
+        "definition": "French for smoked, as in saumon fumé (smoked salmon). Used for smoked meats and fish."
+      }
+    ]
+  },
+  {
+    "letter": "G",
+    "items": [
+      {
+        "term": "Grigliata Mista",
+        "id": "grigliata-mista",
+        "definition": "An Italian mixed grill, featuring a variety of grilled meats and sausages."
+      },
+      {
+        "term": "Galangal",
+        "id": "galangal",
+        "definition": "A rhizome with a zesty, citrusy flavor, often used in Thai and Indonesian cuisine as a ginger substitute."
+      },
+      {
+        "term": "Ganache",
+        "id": "ganache",
+        "definition": "A rich and velvety chocolate mixture made from cream and chocolate, often used in desserts and truffles."
+      },
+      {
+        "term": "Garlic",
+        "id": "garlic",
+        "definition": "A pungent bulb often used to add flavor to a wide range of dishes."
+      },
+      {
+        "term": "Garnish",
+        "id": "garnish",
+        "definition": "Decorative items or ingredients used to enhance the visual appeal of a dish, such as herbs, citrus zest, or edible flowers."
+      },
+      {
+        "term": "Gastrique",
+        "id": "gastrique",
+        "definition": "A sweet and sour sauce made by caramelizing sugar and adding vinegar."
+      },
+      {
+        "term": "Gazpacho",
+        "id": "gazpacho",
+        "definition": "A cold Spanish soup made from blended tomatoes, cucumbers, peppers, and other vegetables, often served as a refreshing appetizer."
+      },
+      {
+        "term": "Ghee",
+        "id": "ghee",
+        "definition": "Clarified butter from Indian cuisine, known for its rich, nutty flavor and high smoke point, making it ideal for frying and sautéing."
+      },
+      {
+        "term": "Giardiniera",
+        "id": "giardiniera",
+        "definition": "An Italian relish or condiment made from pickled vegetables, often used as a topping for sandwiches or a side dish."
+      },
+      {
+        "term": "Giblet Gravy",
+        "id": "giblet-gravy",
+        "definition": "A rich, flavorful gravy made from the simmered giblets (heart, liver, gizzard) of poultry, often served with roast chicken or turkey."
+      },
+      {
+        "term": "Giblets",
+        "id": "giblets",
+        "definition": "The edible organs of poultry, such as the heart, liver, and gizzard, often used in gravies and stuffing."
+      },
+      {
+        "term": "Ginger",
+        "id": "ginger",
+        "definition": "A fragrant root often used as a spice in cooking and baking."
+      },
+      {
+        "term": "Gingerbread",
+        "id": "gingerbread",
+        "definition": "A sweet, spiced bread often shaped into cookies or gingerbread houses."
+      },
+      {
+        "term": "Glaze",
+        "id": "glaze",
+        "definition": "A thin, sweet liquid applied to baked goods for flavor and shine."
+      },
+      {
+        "term": "Gougères",
+        "id": "gougeres",
+        "definition": "French savory choux pastry puffs made with cheese, often served as appetizers or snacks."
+      },
+      {
+        "term": "Goulash",
+        "id": "goulash",
+        "definition": "A hearty stew often made with meat, vegetables, and paprika."
+      },
+      {
+        "term": "Grate",
+        "id": "grate",
+        "definition": "To shred food into small pieces using a grater."
+      },
+      {
+        "term": "Gratinée",
+        "id": "gratinee",
+        "definition": "A cooking method involving the addition of cheese or breadcrumbs and browning under the broiler or oven, similar to \"gratin.\""
+      },
+      {
+        "term": "Gravy",
+        "id": "gravy",
+        "definition": "A sauce made from the drippings of cooked meat, often served with roasts and mashed potatoes."
+      },
+      {
+        "term": "Gremolata",
+        "id": "gremolata",
+        "definition": "A zesty Italian condiment made from lemon zest, garlic, and parsley, often used as a garnish for grilled or roasted dishes."
+      },
+      {
+        "term": "Grill",
+        "id": "grill",
+        "definition": "Cook food directly over an open flame or heat source, often on a grill or barbecue."
+      }
+    ]
+  },
+  {
+    "letter": "H",
+    "items": [
+      {
+        "term": "Haricot Vert",
+        "id": "haricot-vert",
+        "definition": "French for \"green bean,\" these are slender, tender, and sweet green beans, often used in salads and side dishes."
+      },
+      {
+        "term": "Harissa",
+        "id": "harissa",
+        "definition": "A spicy North African chili paste made from red peppers, garlic, and various spices, used as a condiment or flavoring in stews and marinades."
+      },
+      {
+        "term": "Hoisin Sauce",
+        "id": "hoisin-sauce",
+        "definition": "A sweet and savory sauce commonly used in Chinese and Vietnamese cuisine as a condiment or glaze."
+      },
+      {
+        "term": "Hollandaise",
+        "id": "hollandaise",
+        "definition": "A rich, creamy sauce made with egg yolks, butter, and lemon juice, often used for eggs Benedict."
+      },
+      {
+        "term": "Hoppin' John",
+        "id": "hoppin-john",
+        "definition": "A Southern American dish made from black-eyed peas, rice, and often flavored with bacon, traditionally served on New Year's Day."
+      },
+      {
+        "term": "Horchata",
+        "id": "horchata",
+        "definition": "A sweet and creamy beverage made from ground rice or nuts, typically flavored with cinnamon and served cold."
+      },
+      {
+        "term": "Hors d'Oeuvre",
+        "id": "hors-d-oeuvre",
+        "definition": "Small, bite-sized appetizers, typically served before a meal or at social gatherings."
+      },
+      {
+        "term": "Hydrocolloid",
+        "id": "hydrocolloid",
+        "definition": "Substances like agar-agar, pectin, and xanthan gum used to thicken and stabilize foods, particularly in molecular gastronomy."
+      }
+    ]
+  },
+  {
+    "letter": "I",
+    "items": [
+      {
+        "term": "Ice Bath",
+        "id": "ice-bath",
+        "definition": "A method of rapidly cooling food by immersing it in ice water, used to stop the cooking process and maintain texture and color."
+      },
+      {
+        "term": "Iced Coffee",
+        "id": "iced-coffee",
+        "definition": "A cold coffee beverage made by chilling brewed coffee and serving it over ice, often sweetened and sometimes mixed with milk or cream."
+      },
+      {
+        "term": "Iced Tea",
+        "id": "iced-tea",
+        "definition": "A chilled beverage made from brewed tea, often sweetened and served with lemon or other flavorings."
+      },
+      {
+        "term": "Immersion Blender",
+        "id": "immersion-blender",
+        "definition": "A handheld kitchen appliance used for blending, pureeing, and emulsifying."
+      },
+      {
+        "term": "Infuse",
+        "id": "infuse",
+        "definition": "To steep herbs, spices, or other flavorings in a liquid to impart their essence, often used in making teas and syrups."
+      },
+      {
+        "term": "Infusion",
+        "id": "infusion",
+        "definition": "The process of steeping herbs, spices, or other flavorings in hot liquid (usually water or oil) to extract their flavors."
+      },
+      {
+        "term": "Injera",
+        "id": "injera",
+        "definition": "A spongy, sourdough flatbread from Ethiopian and Eritrean cuisine, used as a staple to scoop up stews and other dishes."
+      }
+    ]
+  },
+  {
+    "letter": "J",
+    "items": [
+      {
+        "term": "Jackfruit",
+        "id": "jackfruit",
+        "definition": "A tropical fruit known for its fibrous texture, often used as a meat substitute in vegetarian and vegan dishes."
+      },
+      {
+        "term": "Jaggery",
+        "id": "jaggery",
+        "definition": "An unrefined sugar made from sugar cane or palm sap, often used as a sweetener in various Indian and Southeast Asian dishes."
+      },
+      {
+        "term": "Jam",
+        "id": "jam",
+        "definition": "A sweet and flavorful spread made by cooking fruit with sugar and pectin until the mixture thickens and the fruit softens."
+      },
+      {
+        "term": "Jelly",
+        "id": "jelly",
+        "definition": "A clear, firm fruit spread made from fruit juice, sugar, and pectin."
+      },
+      {
+        "term": "Jelly Roll",
+        "id": "jelly-roll",
+        "definition": "A dessert made by spreading a thin layer of jelly or jam over a sponge cake and rolling it into a cylindrical shape."
+      },
+      {
+        "term": "Jicama",
+        "id": "jicama",
+        "definition": "A crunchy and slightly sweet root vegetable often used in salads and slaws for its refreshing texture."
+      },
+      {
+        "term": "Jigger",
+        "id": "jigger",
+        "definition": "A measuring tool used in bartending to ensure precise quantities of liquid ingredients in cocktails."
+      },
+      {
+        "term": "Julienne",
+        "id": "julienne",
+        "definition": "Cut vegetables or other foods into thin, matchstick-like strips."
+      },
+      {
+        "term": "Jus",
+        "id": "jus",
+        "definition": "A natural, flavorful sauce made from the juices of roasted meat, often served as an accompaniment."
+      }
+    ]
+  },
+  {
+    "letter": "K",
+    "items": [
+      {
+        "term": "Kaffir Lime",
+        "id": "kaffir-lime",
+        "definition": "A highly aromatic lime with glossy, double-lobed leaves and bumpy, wrinkled fruit, used in Southeast Asian cooking mostly for its leaves and zest. Also called makrut lime."
+      },
+      {
+        "term": "Katsu",
+        "id": "katsu",
+        "definition": "A Japanese term referring to breaded and fried cutlets, often made with pork or chicken."
+      },
+      {
+        "term": "Kettle",
+        "id": "kettle",
+        "definition": "A large, deep pot, often used for boiling, simmering, or stewing."
+      },
+      {
+        "term": "Kettle Corn",
+        "id": "kettle-corn",
+        "definition": "Popcorn made with a combination of sugar, salt, and oil for a sweet and savory flavor."
+      },
+      {
+        "term": "Kimchi",
+        "id": "kimchi",
+        "definition": "A traditional Korean side dish made from fermented vegetables, typically cabbage and radishes, seasoned with chili and other spices."
+      },
+      {
+        "term": "Knafeh",
+        "id": "knafeh",
+        "definition": "A Middle Eastern dessert made from shredded phyllo dough layered with sweet cheese or semolina, soaked in syrup, and baked until golden."
+      },
+      {
+        "term": "Knead",
+        "id": "knead",
+        "definition": "Work dough with your hands to develop gluten in bread and pastry making."
+      },
+      {
+        "term": "Kofta",
+        "id": "kofta",
+        "definition": "Small, seasoned meatballs or patties commonly found in Middle Eastern, South Asian, and Mediterranean cuisines."
+      },
+      {
+        "term": "Kohlrabi",
+        "id": "kohlrabi",
+        "definition": "A unique vegetable with a mild, sweet flavor, often sliced into salads, slaws, or stir-fries."
+      },
+      {
+        "term": "Kombucha",
+        "id": "kombucha",
+        "definition": "A fermented tea beverage made with a SCOBY (symbiotic culture of bacteria and yeast) and sugar, known for its probiotic properties."
+      }
+    ]
+  },
+  {
+    "letter": "L",
+    "items": [
+      {
+        "term": "Labneh",
+        "id": "labneh",
+        "definition": "A Middle Eastern strained yogurt cheese, often served as a dip, spread, or topping for savory or sweet dishes."
+      },
+      {
+        "term": "Ladle",
+        "id": "ladle",
+        "definition": "A long-handled spoon with a deep bowl used for serving soups, stews, and other liquid dishes."
+      },
+      {
+        "term": "Larding",
+        "id": "larding",
+        "definition": "The process of inserting strips of fat (lardons) into meat to add moisture and flavor during cooking."
+      },
+      {
+        "term": "Lardon",
+        "id": "lardon",
+        "definition": "Small strips or cubes of fatty bacon used to add flavor to dishes, such as salads and soups."
+      },
+      {
+        "term": "Lattice",
+        "id": "lattice",
+        "definition": "A decorative pastry or dough top made by weaving strips of dough over a filling, often seen on pies and tarts."
+      },
+      {
+        "term": "Lavash",
+        "id": "lavash",
+        "definition": "A soft, thin, unleavened flatbread popular in Middle Eastern and Mediterranean cuisines, used for wraps and as a dipping bread."
+      },
+      {
+        "term": "Lavender",
+        "id": "lavender",
+        "definition": "A fragrant herb commonly used in culinary applications, such as baking, making herbal teas, and flavoring sweets."
+      },
+      {
+        "term": "Lecithin",
+        "id": "lecithin",
+        "definition": "A natural emulsifier commonly used in baking and molecular gastronomy to blend ingredients that do not naturally mix."
+      },
+      {
+        "term": "Lefse",
+        "id": "lefse",
+        "definition": "A traditional Norwegian flatbread made from potatoes, flour, and cream, often served with butter and sugar or cinnamon."
+      },
+      {
+        "term": "Lemon Zest",
+        "id": "lemon-zest",
+        "definition": "The outer, flavorful skin of a lemon, grated and used to add citrus aroma and flavor to dishes."
+      },
+      {
+        "term": "Lomo Saltado",
+        "id": "lomo-saltado",
+        "definition": "A popular Peruvian dish featuring stir-fried strips of beef, tomatoes, onions, and peppers, served with fries and rice."
+      }
+    ]
+  },
+  {
+    "letter": "M",
+    "items": [
+      {
+        "term": "Macaron",
+        "id": "macaron",
+        "definition": "A French meringue-based cookie, often made in various flavors and sandwiched with ganache or buttercream."
+      },
+      {
+        "term": "Maitake Mushroom",
+        "id": "maitake-mushroom",
+        "definition": "Also known as \"hen of the woods,\" a wild mushroom with a rich, earthy flavor, commonly used in Asian and Italian cuisines."
+      },
+      {
+        "term": "Marinate",
+        "id": "marinate",
+        "definition": "To soak food in a seasoned liquid to enhance flavor and tenderness."
+      },
+      {
+        "term": "Marmalade",
+        "id": "marmalade",
+        "definition": "A fruit preserve made from citrus fruits, typically containing the peel and zest for a slightly bitter flavor."
+      },
+      {
+        "term": "Marmite",
+        "id": "marmite",
+        "definition": "A British condiment made from yeast extract, known for its strong and distinctive flavor, often spread on toast or used in cooking."
+      },
+      {
+        "term": "Matzo",
+        "id": "matzo",
+        "definition": "Unleavened bread traditionally eaten during Passover in Jewish cuisine, often served in various forms, like crackers or dumplings."
+      },
+      {
+        "term": "Melt",
+        "id": "melt",
+        "definition": "To heat a solid substance, like butter or chocolate, until it becomes a liquid."
+      },
+      {
+        "term": "Meringue",
+        "id": "meringue",
+        "definition": "A mixture of whipped egg whites and sugar, often used as a topping for pies and desserts."
+      },
+      {
+        "term": "Mince",
+        "id": "mince",
+        "definition": "Chop food into very fine, uniform pieces."
+      },
+      {
+        "term": "Mirepoix",
+        "id": "mirepoix",
+        "definition": "A mixture of diced onions, carrots, and celery used as a base for soups, stews, and sauces."
+      },
+      {
+        "term": "Mise en Place",
+        "id": "mise-en-place",
+        "definition": "The practice of preparing and organizing all ingredients and tools before starting the cooking process."
+      },
+      {
+        "term": "Mole",
+        "id": "mole",
+        "definition": "A rich, complex Mexican sauce made from chili peppers and a variety of ingredients such as chocolate, spices, and nuts, often served with poultry or meat."
+      },
+      {
+        "term": "Molecular Gastronomy",
+        "id": "molecular-gastronomy",
+        "definition": "A culinary approach that explores the scientific principles of cooking to create innovative and artistic dishes."
+      }
+    ]
+  },
+  {
+    "letter": "N",
+    "items": [
+      {
+        "term": "Naan",
+        "id": "naan",
+        "definition": "A soft, leavened flatbread often used in Indian and South Asian cuisine, served with various dishes or used as a wrap."
+      },
+      {
+        "term": "Nage",
+        "id": "nage",
+        "definition": "A flavorful broth used to poach or braise seafood, often enriched with aromatic ingredients like wine and vegetables."
+      },
+      {
+        "term": "Nasturtium",
+        "id": "nasturtium",
+        "definition": "Edible flowers and leaves with a peppery, radish-like flavor, used to garnish salads and other dishes."
+      },
+      {
+        "term": "Nduja",
+        "id": "nduja",
+        "definition": "A spicy, spreadable salami paste from Italy, typically used to add a kick of flavor to various dishes."
+      },
+      {
+        "term": "Nigella Seeds",
+        "id": "nigella-seeds",
+        "definition": "Small black seeds with a slightly oniony, peppery flavor, used in Indian and Middle Eastern cooking and sprinkled on breads like naan."
+      },
+      {
+        "term": "Noodle",
+        "id": "noodle",
+        "definition": "Strips or strings of pasta or dough made from flour and water, used in various cuisines."
+      },
+      {
+        "term": "Nopal",
+        "id": "nopal",
+        "definition": "Edible prickly pear cactus pads, used in Mexican cuisine in various dishes, from salads to stews."
+      },
+      {
+        "term": "Nutcracker",
+        "id": "nutcracker",
+        "definition": "A tool used to crack open the shells of nuts to access the edible kernels."
+      },
+      {
+        "term": "Nutmeg",
+        "id": "nutmeg",
+        "definition": "A fragrant spice made from the seed of the nutmeg tree, used to flavor both sweet and savory dishes."
+      }
+    ]
+  },
+  {
+    "letter": "O",
+    "items": [
+      {
+        "term": "Okonomiyaki",
+        "id": "okonomiyaki",
+        "definition": "A Japanese savory pancake made with cabbage, flour, and a variety of toppings, often customized to personal preference."
+      },
+      {
+        "term": "Omelet",
+        "id": "omelet",
+        "definition": "Beaten eggs cooked with various fillings, often folded in half during cooking."
+      },
+      {
+        "term": "Orecchiette",
+        "id": "orecchiette",
+        "definition": "A type of Italian pasta that's shaped like small ears, often used with sauces, vegetables, and meats."
+      },
+      {
+        "term": "Orgeat",
+        "id": "orgeat",
+        "definition": "A sweet almond syrup often used as a flavoring in cocktails and non-alcoholic beverages."
+      },
+      {
+        "term": "Orzo",
+        "id": "orzo",
+        "definition": "A small, rice-shaped pasta often used in Mediterranean and Middle Eastern dishes, such as salads and soups."
+      },
+      {
+        "term": "Osso Buco",
+        "id": "osso-buco",
+        "definition": "An Italian dish made from braised veal shanks, typically slow-cooked with white wine, tomatoes, and aromatic vegetables."
+      },
+      {
+        "term": "Overproof",
+        "id": "overproof",
+        "definition": "Describes yeast dough that has risen too much and is at risk of collapsing."
+      },
+      {
+        "term": "Oyster Sauce",
+        "id": "oyster-sauce",
+        "definition": "A thick, savory sauce made from oyster extracts, often used as a flavoring in Asian dishes."
+      }
+    ]
+  },
+  {
+    "letter": "P",
+    "items": [
+      {
+        "term": "Pancetta",
+        "id": "pancetta",
+        "definition": "An Italian bacon made from pork belly, often used to add a salty, savory flavor to pasta dishes, salads, and more."
+      },
+      {
+        "term": "Pandan",
+        "id": "pandan",
+        "definition": "An aromatic green leaf used in Southeast Asian and South Asian cooking for its unique flavor and fragrance."
+      },
+      {
+        "term": "Parboil",
+        "id": "parboil",
+        "definition": "To partially cook food in boiling water before finishing the cooking process through another method, such as grilling or baking."
+      },
+      {
+        "term": "Parchment Paper",
+        "id": "parchment-paper",
+        "definition": "A non-stick paper used in baking to prevent sticking and ease cleanup."
+      },
+      {
+        "term": "Pastry",
+        "id": "pastry",
+        "definition": "A dough made from flour, fat (butter, lard, etc.), and water, used for pie crusts and pastries."
+      },
+      {
+        "term": "Pastry Cream",
+        "id": "pastry-cream",
+        "definition": "A custard-like filling used in pastries and desserts, typically made with milk, sugar, eggs, and flavorings like vanilla."
+      },
+      {
+        "term": "Pâté",
+        "id": "pate",
+        "definition": "A highly seasoned spread made from ground meat, poultry, or seafood, often served with bread or crackers."
+      },
+      {
+        "term": "Pav Bhaji",
+        "id": "pav-bhaji",
+        "definition": "A popular Indian street food dish made of a spiced vegetable mash (bhaji) served with buttered buns (pav)."
+      },
+      {
+        "term": "Pavlova",
+        "id": "pavlova",
+        "definition": "A dessert consisting of a crisp meringue shell filled with whipped cream and fresh fruit, named after the Russian ballerina Anna Pavlova."
+      },
+      {
+        "term": "Peking Duck",
+        "id": "peking-duck",
+        "definition": "A famous Chinese dish featuring crispy, roasted duck served with thin pancakes, hoisin sauce, and sliced scallions."
+      },
+      {
+        "term": "Poach",
+        "id": "poach",
+        "definition": "Cook delicate foods like eggs or fish in simmering liquid, often with added flavorings."
+      },
+      {
+        "term": "Proofing",
+        "id": "proofing",
+        "definition": "Allowing yeast dough to rise before baking, often in a warm, humid environment."
+      },
+      {
+        "term": "Proofing Box",
+        "id": "proofing-box",
+        "definition": "A temperature-controlled chamber used for consistent and controlled dough fermentation."
+      }
+    ]
+  },
+  {
+    "letter": "Q",
+    "items": [
+      {
+        "term": "Quark",
+        "id": "quark",
+        "definition": "A fresh dairy product similar to yogurt and cottage cheese, often used in European cooking for both sweet and savory dishes."
+      },
+      {
+        "term": "Quenelle",
+        "id": "quenelle",
+        "definition": "A smooth and delicate dumpling made from fish or meat, often poached and served with a sauce."
+      },
+      {
+        "term": "Quince",
+        "id": "quince",
+        "definition": "A fruit with a tart, floral flavor, often used to make jams, jellies, and preserves."
+      },
+      {
+        "term": "Quinoa",
+        "id": "quinoa",
+        "definition": "A highly nutritious grain-like seed often used in salads, as a side dish, or as a gluten-free alternative to traditional grains."
+      }
+    ]
+  },
+  {
+    "letter": "R",
+    "items": [
+      {
+        "term": "Ratatouille",
+        "id": "ratatouille",
+        "definition": "A French vegetable stew made with eggplant, zucchini, peppers, and tomatoes, often seasoned with herbs."
+      },
+      {
+        "term": "Red Eye Gravy",
+        "id": "red-eye-gravy",
+        "definition": "A Southern American gravy made from pan drippings, coffee, and sometimes ham or bacon, served with biscuits."
+      },
+      {
+        "term": "Reduce",
+        "id": "reduce",
+        "definition": "Simmer a liquid to evaporate water content, concentrating flavors and thickening the liquid."
+      },
+      {
+        "term": "Reduction",
+        "id": "reduction",
+        "definition": "A thickening and flavor-concentrating process by simmering a liquid to reduce its volume."
+      },
+      {
+        "term": "Remouillage",
+        "id": "remouillage",
+        "definition": "A second or weaker stock made by simmering bones and ingredients after the primary stock has been made."
+      },
+      {
+        "term": "Rémoulade",
+        "id": "remoulade",
+        "definition": "A condiment or sauce made from mayonnaise, mustard, capers, herbs, and pickles, often used to accompany seafood or fried foods."
+      },
+      {
+        "term": "Rest",
+        "id": "rest",
+        "definition": "Allowing cooked meat to sit before cutting to redistribute juices and maintain moisture."
+      },
+      {
+        "term": "Roast",
+        "id": "roast",
+        "definition": "Cook food in an oven at high temperatures, typically for meats, poultry, and vegetables."
+      },
+      {
+        "term": "Roux",
+        "id": "roux",
+        "definition": "A mixture of fat and flour used as a thickening agent for sauces and gravies."
+      }
+    ]
+  },
+  {
+    "letter": "S",
+    "items": [
+      {
+        "term": "Saba",
+        "id": "saba",
+        "definition": "A sweet and syrupy reduction of grape must (freshly crushed grape juice) often used as a condiment or drizzle for dishes."
+      },
+      {
+        "term": "Saganaki",
+        "id": "saganaki",
+        "definition": "A Greek dish of fried or baked cheese, typically served with a squeeze of lemon juice and sometimes flambéed with brandy."
+      },
+      {
+        "term": "Salmonella",
+        "id": "salmonella",
+        "definition": "A harmful bacterium commonly associated with undercooked or contaminated poultry and eggs."
+      },
+      {
+        "term": "Sashimi",
+        "id": "sashimi",
+        "definition": "Sliced, raw seafood, typically served without rice and accompanied by soy sauce, wasabi, and pickled ginger in Japanese cuisine."
+      },
+      {
+        "term": "Sashimi Grade",
+        "id": "sashimi-grade",
+        "definition": "A label sellers use for fish they consider safe to eat raw, usually frozen first to kill parasites. It is a marketing term, not a government standard."
+      },
+      {
+        "term": "Sauté",
+        "id": "saute",
+        "definition": "Cook food quickly in a small amount of oil or butter over high heat in a skillet or pan."
+      },
+      {
+        "term": "Score",
+        "id": "score",
+        "definition": "To make shallow cuts in bread dough before baking to control the direction of expansion and create decorative patterns."
+      },
+      {
+        "term": "Sear",
+        "id": "sear",
+        "definition": "To quickly brown the surface of meat or vegetables in a hot pan."
+      },
+      {
+        "term": "Seitan",
+        "id": "seitan",
+        "definition": "A high-protein meat substitute made from wheat gluten, often used in vegetarian and vegan cooking."
+      },
+      {
+        "term": "Shakshuka",
+        "id": "shakshuka",
+        "definition": "A North African and Middle Eastern dish consisting of poached eggs in a spicy tomato, pepper, and onion sauce."
+      },
+      {
+        "term": "Sift",
+        "id": "sift",
+        "definition": "To pass dry ingredients (usually flour) through a sieve to remove lumps and aerate them."
+      },
+      {
+        "term": "Simmer",
+        "id": "simmer",
+        "definition": "Cook food gently in a liquid at a temperature just below boiling, used for stews, soups, and sauces."
+      },
+      {
+        "term": "Slice",
+        "id": "slice",
+        "definition": "Cut food into thin, flat pieces, often used for meats, fruits, and vegetables."
+      },
+      {
+        "term": "Soffritto",
+        "id": "soffritto",
+        "definition": "An Italian flavor base made by sautéing diced onions, carrots, and celery, used in a variety of Italian dishes."
+      },
+      {
+        "term": "Sorbet",
+        "id": "sorbet",
+        "definition": "A dairy-free frozen dessert made from fruit puree, sugar, and water, known for its refreshing and fruity flavors."
+      },
+      {
+        "term": "Sous Chef",
+        "id": "sous-chef",
+        "definition": "The second-in-command in a professional kitchen, often responsible for managing the kitchen and assisting the head chef."
+      },
+      {
+        "term": "Sous Vide",
+        "id": "sous-vide",
+        "definition": "Cooking food by vacuum-sealing it in a bag and immersing it in a precisely controlled water bath."
+      },
+      {
+        "term": "Sriracha",
+        "id": "sriracha",
+        "definition": "A popular hot sauce made from chili peppers, garlic, vinegar, and sugar, known for its spicy and slightly sweet flavor."
+      },
+      {
+        "term": "Steam",
+        "id": "steam",
+        "definition": "Cook food by exposing it to steam from boiling water, which helps retain nutrients and flavors."
+      },
+      {
+        "term": "Stock",
+        "id": "stock",
+        "definition": "A flavorful liquid made by simmering bones, vegetables, and seasonings, used as a base for soups, sauces, and other dishes."
+      },
+      {
+        "term": "Szechuan Peppercorns",
+        "id": "szechuan-peppercorns",
+        "definition": "Dried, citrusy husks of the prickly ash shrub used in Chinese cooking for their tingling, numbing effect. Not related to black pepper or chili heat."
+      }
+    ]
+  },
+  {
+    "letter": "T",
+    "items": [
+      {
+        "term": "Tabbouleh",
+        "id": "tabbouleh",
+        "definition": "A Middle Eastern salad made from bulgur wheat, tomatoes, cucumbers, fresh herbs, and a lemony dressing."
+      },
+      {
+        "term": "Tamarind",
+        "id": "tamarind",
+        "definition": "A tangy, sweet-and-sour fruit often used as a flavoring in Asian and Latin American cuisine, and in condiments like tamarind paste or chutney."
+      },
+      {
+        "term": "Taro",
+        "id": "taro",
+        "definition": "A starchy root vegetable used in various Asian and tropical cuisines, often prepared by boiling, steaming, or frying."
+      },
+      {
+        "term": "Tenderize",
+        "id": "tenderize",
+        "definition": "To make meat more tender by breaking down its fibers, often done through marinating or pounding."
+      },
+      {
+        "term": "Teurgoule",
+        "id": "teurgoule",
+        "definition": "A traditional dish from Normandy, France, made with rice, cinnamon, and milk, then baked to form a creamy, spiced rice pudding."
+      },
+      {
+        "term": "Tincture",
+        "id": "tincture",
+        "definition": "A concentrated extract made by infusing alcohol or other liquids with herbs, spices, or other flavoring agents."
+      },
+      {
+        "term": "Tofu",
+        "id": "tofu",
+        "definition": "A versatile and protein-rich soybean curd used in a variety of dishes, including stir-fries, soups, and desserts."
+      },
+      {
+        "term": "Tofu Skin",
+        "id": "tofu-skin",
+        "definition": "Also known as yuba, it's a film that forms on the surface of soy milk during the tofu-making process, often used in vegetarian and vegan dishes."
+      },
+      {
+        "term": "Tofurkey",
+        "id": "tofurkey",
+        "definition": "A vegetarian and vegan alternative to traditional turkey, often made from tofu, seitan, or other plant-based ingredients."
+      },
+      {
+        "term": "Truss",
+        "id": "truss",
+        "definition": "To tie poultry or meat with kitchen twine to maintain a compact shape during cooking."
+      },
+      {
+        "term": "Turducken",
+        "id": "turducken",
+        "definition": "A dish consisting of a deboned chicken inside a deboned duck, which is then placed inside a deboned turkey, often served as a novelty on Thanksgiving.",
+        "link": "/kitchen-glossary/turducken/"
+      },
+      {
+        "term": "Turmeric",
+        "id": "turmeric",
+        "definition": "A bright yellow spice with a warm, earthy flavor, commonly used in curry dishes and for its potential health benefits."
+      },
+      {
+        "term": "Tzatziki",
+        "id": "tzatziki",
+        "definition": "A Greek sauce or dip made from yogurt, cucumbers, garlic, and dill, often served with grilled meats or as a condiment."
+      }
+    ]
+  },
+  {
+    "letter": "U",
+    "items": [
+      {
+        "term": "Ube",
+        "id": "ube",
+        "definition": "A purple yam used in Filipino cuisine, often used in desserts and sweet dishes for its vibrant color and unique flavor."
+      },
+      {
+        "term": "Udon",
+        "id": "udon",
+        "definition": "A type of thick, wheat-based Japanese noodle, often used in soups and stir-fry dishes."
+      },
+      {
+        "term": "Ugli Fruit",
+        "id": "ugli-fruit",
+        "definition": "A citrus fruit that's a cross between a grapefruit and a tangerine, known for its wrinkled appearance and sweet, tangy flavor."
+      },
+      {
+        "term": "Umami",
+        "id": "umami",
+        "definition": "One of the five basic tastes, characterized by a savory, meaty, or brothy flavor, often found in foods like mushrooms and aged cheeses."
+      },
+      {
+        "term": "Umeboshi",
+        "id": "umeboshi",
+        "definition": "Japanese pickled plums or apricots known for their intense, salty-sour flavor, used as a condiment and flavoring."
+      },
+      {
+        "term": "Ungreased",
+        "id": "ungreased",
+        "definition": "Not greased or oiled, often used in reference to baking pans or sheets."
+      }
+    ]
+  },
+  {
+    "letter": "V",
+    "items": [
+      {
+        "term": "Vadouvan",
+        "id": "vadouvan",
+        "definition": "A French-Indian spice blend with a distinctive flavor profile, used to season soups, stews, and vegetables."
+      },
+      {
+        "term": "Vegan",
+        "id": "vegan",
+        "definition": "A dietary choice that excludes all animal products, including meat, dairy, eggs, and honey."
+      },
+      {
+        "term": "Velouté",
+        "id": "veloute",
+        "definition": "A classic French sauce made by thickening a white stock with a roux, often used as a base for other sauces."
+      },
+      {
+        "term": "Vinaigrette",
+        "id": "vinaigrette",
+        "definition": "A mixture of oil, vinegar, and seasonings used as a salad dressing or marinade."
+      },
+      {
+        "term": "Vindaloo",
+        "id": "vindaloo",
+        "definition": "A spicy Indian curry dish made with meat (commonly pork) or vegetables, known for its use of vinegar and intense spices."
+      }
+    ]
+  },
+  {
+    "letter": "W",
+    "items": [
+      {
+        "term": "Whip",
+        "id": "whip",
+        "definition": "Incorporate air into ingredients to create a light, fluffy texture, often for creams and egg whites."
+      },
+      {
+        "term": "Wilt",
+        "id": "wilt",
+        "definition": "To cook or heat greens or vegetables briefly until they become limp and slightly softened."
+      },
+      {
+        "term": "Wok",
+        "id": "wok",
+        "definition": "A versatile, high-sided pan with a round bottom, commonly used in stir-frying and deep-frying."
+      }
+    ]
+  },
+  {
+    "letter": "X",
+    "items": [
+      {
+        "term": "Xanthan Gum",
+        "id": "xanthan-gum",
+        "definition": "A food thickener and stabilizer often used in gluten-free baking and cooking."
+      }
+    ]
+  },
+  {
+    "letter": "Y",
+    "items": [
+      {
+        "term": "Yakitori",
+        "id": "yakitori",
+        "definition": "A Japanese dish consisting of skewered, grilled chicken pieces, often seasoned with salt or a tare sauce."
+      },
+      {
+        "term": "Yeast",
+        "id": "yeast",
+        "definition": "A microorganism used to leaven bread and other baked goods by fermenting sugars to produce carbon dioxide gas."
+      },
+      {
+        "term": "Yuba",
+        "id": "yuba",
+        "definition": "Also known as tofu skin or bean curd sheet, it's the thin film that forms on the surface of heated soy milk, often used in various dishes."
+      },
+      {
+        "term": "Yuzu",
+        "id": "yuzu",
+        "definition": "A citrus fruit native to East Asia, known for its unique flavor, often used in dressings, sauces, and desserts."
+      }
+    ]
+  },
+  {
+    "letter": "Z",
+    "items": [
+      {
+        "term": "Za'atar",
+        "id": "za-atar",
+        "definition": "A Middle Eastern spice blend typically made from dried herbs like thyme, sumac, and sesame seeds, used as a seasoning for various dishes."
+      },
+      {
+        "term": "Zabaglione",
+        "id": "zabaglione",
+        "definition": "A classic Italian custard dessert made with egg yolks, sugar, and sweet wine, often served with fresh fruit."
+      },
+      {
+        "term": "Zeppole",
+        "id": "zeppole",
+        "definition": "Italian doughnuts, often deep-fried and dusted with powdered sugar."
+      },
+      {
+        "term": "Zest",
+        "id": "zest",
+        "definition": "To grate the outer, flavorful skin of citrus fruits."
+      },
+      {
+        "term": "Zester",
+        "id": "zester",
+        "definition": "A kitchen tool used to remove the outer zest of citrus fruits."
+      },
+      {
+        "term": "Zucchini",
+        "id": "zucchini",
+        "definition": "A summer squash variety with tender, edible skin, often used in various culinary applications, from sautéing to baking."
+      }
+    ]
+  }
+]

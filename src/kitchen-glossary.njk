@@ -1,0 +1,31 @@
+---
+layout: layouts/reference.njk
+title: Kitchen Glossary
+permalink: /kitchen-glossary/
+---
+<nav class="letter-jump" aria-label="Jump to letter">
+  {% for group in glossary %}<a href="#{{ group.letter | lower }}">{{ group.letter }}</a>{% endfor %}
+</nav>
+
+{% for group in glossary %}
+<section class="glossary-group" id="{{ group.letter | lower }}">
+  <h2>{{ group.letter }}</h2>
+  <dl class="glossary">
+    {% for item in group.items %}
+    <div id="{{ item.id }}">
+      <dt>{% if item.link %}<a href="{{ item.link }}">{{ item.term }}</a>{% else %}{{ item.term }}{% endif %}</dt>
+      <dd>{{ item.definition }}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+{% endfor %}
+
+<style>
+  .letter-jump { display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; margin: 0 0 1.5rem; font-weight: 700; }
+  .glossary-group h2 { border-bottom: 2px solid var(--line, #ddd); padding-bottom: 0.25rem; margin-top: 1.75rem; scroll-margin-top: 1rem; }
+  .glossary { margin: 0; }
+  .glossary div { padding: 0.5rem 0; border-bottom: 1px solid var(--line, #ddd); scroll-margin-top: 1rem; }
+  .glossary dt { font-weight: 700; }
+  .glossary dd { margin: 0.15rem 0 0; }
+</style>
