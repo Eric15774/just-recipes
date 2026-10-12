@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+---
+<article class="reference" data-pagefind-body>
+  {% if parent %}<p class="breadcrumb"><a href="{{ parent.url }}">{{ parent.title }}</a></p>{% endif %}
+  <h1>{{ title }}</h1>
+  {{ content | safe }}
+</article>
+
+<style>
+  .reference .numbers { margin: 0 0 1.5rem; }
+  .reference .numbers div {
+    display: grid;
+    grid-template-columns: 9.5rem 1fr;
+    gap: 1rem;
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--line, #ddd);
+  }
+  .reference .numbers dt { font-weight: 700; font-size: 1.1rem; }
+  .reference .numbers dd { margin: 0; }
+  .reference table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+  .reference th, .reference td {
+    text-align: left;
+    vertical-align: top;
+    padding: 0.45rem 0.5rem;
+    border-bottom: 1px solid var(--line, #ddd);
+  }
+  .reference .muted { color: var(--muted, #666); font-size: 0.9rem; }
+  @media (max-width: 520px) {
+    .reference .numbers div { grid-template-columns: 1fr; gap: 0.15rem; }
+  }
+</style>
