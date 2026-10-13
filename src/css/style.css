@@ -139,3 +139,19 @@ a { color: var(--accent); }
   .recipe-source { color: #444; }
   .recipe::after { content: "recipes.longwell.io"; display: block; margin-top: 1.5rem; font-size: 8pt; color: #666; }
 }
+
+/* Recipe count in the title: golden color, grows on hover */
+.recipe-count {
+  display: inline-block;
+  color: #c8862a;
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.recipe-count:hover,
+.site-title:hover .recipe-count,
+.site-title:focus .recipe-count {
+  transform: scale(1.35);
+  color: #b5701a;
+}
+@media (prefers-reduced-motion: reduce) {
+  .recipe-count { transition: none; }
+}
