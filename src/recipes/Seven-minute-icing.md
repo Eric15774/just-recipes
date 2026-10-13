@@ -1,6 +1,6 @@
 ---
 layout: layouts/recipe.njk
-title: 7 Minute Icing
+title: Seven Minute Icing
 category: Super Sweets
 tags: [icing, frosting]
 cook: 7-10 min
