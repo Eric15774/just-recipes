@@ -1,6 +1,6 @@
 ---
 layout: layouts/recipe.njk
-title: 30 Minute Dinner Rolls
+title: Thirty Minute Dinner Rolls
 category: Breads and Doughs
 tags: [rolls, yeast, quick]
 cook: 10-12 min
