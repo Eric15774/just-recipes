@@ -1,7 +1,7 @@
 ---
 layout: layouts/recipe.njk
 title: Tahini Cookies
-category: Experimental
+category: Cookies Etc.
 tags: [cookies, tahini, sesame, experimental]
 cook: 12-15 min
 servings: "about 24 cookies"
