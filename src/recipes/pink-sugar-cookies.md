@@ -2,13 +2,13 @@
 layout: layouts/recipe.njk
 title: Pink Sugar Cookies
 category: Cookies Etc.
-tags: [sugar cookies, almond, frosted, crumbl copycat]
+tags: [sugar cookies, almond, frosted]
 prep: 30 min chill
 cook: about 15 min
 servings: "12-14 large cookies"
 ---
 
-Soft, thick sugar cookies with almond extract and pink almond buttercream, in the style of Crumbl's pink sugar cookie.
+Big, soft, thick sugar cookies with almond extract and pink almond buttercream.
 
 ## Ingredients
 
