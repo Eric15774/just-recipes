@@ -2,6 +2,7 @@ export default function (eleventyConfig) {
   // Copy static assets straight through
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
+  eleventyConfig.addPassthroughCopy("src/favicon.ico");
 
   // Turn "Main Courses" into "main-courses" for URLs
   eleventyConfig.addFilter("slugify", function (str) {
