@@ -1,0 +1,18 @@
+---
+layout: layouts/reference.njk
+title: By The Numbers
+permalink: /by-the-numbers/
+---
+<p class="muted">Quick reference numbers for the kitchen. See also <a href="/by-the-numbers/types-of-flour/">Types of Flour</a> and <a href="/by-the-numbers/golden-ratio/">The Golden Ratio</a>.</p>
+
+{% for section in numbers %}
+<h2>{{ section.group }}</h2>
+<dl class="numbers">
+  {% for n in section.items %}
+  <div>
+    <dt>{{ n.value }}</dt>
+    <dd>{{ n.label }}{% if n.link %} <a href="{{ n.link }}">More</a>{% endif %}</dd>
+  </div>
+  {% endfor %}
+</dl>
+{% endfor %}

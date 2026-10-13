@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.tagList
+  size: 1
+  alias: tagItem
+permalink: "/tags/{{ tagItem.slug }}/"
+eleventyComputed:
+  title: "Tagged {{ tagItem.name }}"
+---
+<p class="breadcrumb"><a href="/tags/">All tags</a></p>
+<h1>Tagged "{{ tagItem.name }}"</h1>
+<ul class="recipe-index">
+  {% for recipe in tagItem.recipes %}
+  <li><a href="{{ recipe.url }}">{{ recipe.data.title }}</a> <span class="category-tag">{{ recipe.data.category }}</span></li>
+  {% endfor %}
+</ul>

@@ -106,3 +106,36 @@ a { color: var(--accent); }
 }
 
 #search { margin-top: 1rem; }
+
+.site-header { flex-wrap: wrap; gap: 0.5rem; }
+.tag-link { text-decoration: none; }
+.tag-link:hover .tag, .tag-link:focus .tag { background: var(--accent); color: white; }
+.print-button {
+  float: right;
+  font: inherit;
+  font-size: 0.85rem;
+  padding: 0.25rem 0.75rem;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--accent);
+  cursor: pointer;
+}
+.tag-cloud { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.tag-cloud .count { font-size: 0.75rem; }
+
+/* Print: just the recipe, nothing else */
+@media print {
+  @page { margin: 0.6in; }
+  body { background: white; color: black; font-size: 11pt; line-height: 1.4; }
+  .site-header, .site-footer, .breadcrumb, .recipe-tags, .print-button, .letter-jump, #search { display: none !important; }
+  main { max-width: none; padding: 0; }
+  a { color: black; text-decoration: none; }
+  h1 { font-size: 20pt; margin: 0 0 0.25rem; }
+  .recipe h2 { font-size: 13pt; margin-top: 1rem; border-bottom: 1px solid #999; }
+  .recipe-meta { color: black; margin: 0.25rem 0 0.75rem; }
+  h2, h3 { break-after: avoid; }
+  li, tr, .glossary div, .numbers div { break-inside: avoid; }
+  .recipe-source { color: #444; }
+  .recipe::after { content: "recipes.longwell.io"; display: block; margin-top: 1.5rem; font-size: 8pt; color: #666; }
+}

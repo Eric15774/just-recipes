@@ -1,0 +1,14 @@
+---
+layout: layouts/reference.njk
+title: Reference
+permalink: /reference/
+---
+{% set termCount = 0 %}{% for g in glossary %}{% set termCount = termCount + g.items.length %}{% endfor %}
+<p>Kitchen reference pages to keep handy while you cook.</p>
+<ul class="category-list">
+  <li><a href="/by-the-numbers/">By The Numbers</a> <span class="count">Temperatures, measurements, and rules of thumb</span></li>
+  <li><a href="/conversions-and-substitutions/">Conversions and Substitutions</a> <span class="count">Swaps and unit conversions</span></li>
+  <li><a href="/kitchen-glossary/">Kitchen Glossary</a> <span class="count">{{ termCount }} cooking terms</span></li>
+  <li><a href="/nutritional-information/">Nutritional Information</a></li>
+  <li><a href="/starting-points/">Starting Points</a></li>
+</ul>

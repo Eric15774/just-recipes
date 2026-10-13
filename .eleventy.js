@@ -41,6 +41,23 @@ export default function (eleventyConfig) {
     return [...names].sort();
   });
 
+  // Recipe tags with their recipes, e.g. [{ name, slug, recipes }]
+  eleventyConfig.addCollection("tagList", function (collectionApi) {
+    const slug = (s) => String(s).toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    const map = {};
+    for (const r of collectionApi.getFilteredByGlob("src/recipes/*.md")) {
+      for (const tag of r.data.tags || []) {
+        const s = slug(tag);
+        if (!s) continue;
+        if (!map[s]) map[s] = { name: tag, slug: s, recipes: [] };
+        map[s].recipes.push(r);
+      }
+    }
+    const list = Object.values(map);
+    for (const t of list) t.recipes.sort((a, b) => a.data.title.localeCompare(b.data.title));
+    return list.sort((a, b) => a.name.localeCompare(b.name));
+  });
+
   return {
     dir: {
       input: "src",
