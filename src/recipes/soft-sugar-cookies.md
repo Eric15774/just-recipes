@@ -20,8 +20,8 @@ Icing:
 
 - 1 stick butter
 - 1 tsp vanilla
-- Confectioners' sugar, to consistency
-- Milk
+- Confectioners' sugar, to consistency (2.5-3 cups)
+- 2 tbs Milk
 
 ## Directions
 
