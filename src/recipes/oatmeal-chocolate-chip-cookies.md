@@ -9,7 +9,7 @@ cook: 12-13 min
 
 ## Ingredients
 
-- Butter (amount not recorded in the original, see note)
+- 1 cup Butter
 - 1 cup dark brown sugar
 - 1/2 cup sugar
 - 2 large eggs
@@ -30,7 +30,3 @@ cook: 12-13 min
 3. Gradually add the flour mixture to the butter mixture until completely combined. Add the oats and chocolate chips, stirring until thoroughly combined.
 4. Cover the bowl with plastic wrap and refrigerate for at least 30 minutes.
 5. Preheat oven to 350°F and line cookie sheets with parchment paper. Bake for 12-13 minutes.
-
-## Notes
-
-- The original recipe's ingredient list didn't specify a butter amount even though the directions call for creaming it, most similar cookie recipes of this size use around 1 cup (2 sticks). Worth confirming before you make it.
