@@ -1,0 +1,732 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Add Recipe">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#fdfcf9">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="/favicon.ico">
+<title>Add Recipe</title>
+<style>
+  :root {
+    --ink: #2b2b2b;
+    --paper: #fdfcf9;
+    --card: #ffffff;
+    --accent: #7a3b2e;
+    --accent-ink: #ffffff;
+    --line: #e2ddd3;
+    --muted: #767267;
+    --warn: #8a5a00;
+    --warn-bg: #fff6e0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #ece8e1;
+      --paper: #1c1a18;
+      --card: #252220;
+      --accent: #d0876f;
+      --accent-ink: #1c1a18;
+      --line: #3d3833;
+      --muted: #a39d92;
+      --warn: #f0c060;
+      --warn-bg: #3a2f17;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: calc(1rem + env(safe-area-inset-top)) 16px calc(4rem + env(safe-area-inset-bottom));
+  }
+  h1 { font-size: 1.6rem; margin: 0 0 0.25rem; color: var(--accent); }
+  .lede { margin: 0 0 1.25rem; color: var(--muted); }
+  section {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  h2 {
+    font-size: 1.1rem;
+    margin: 0 0 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+  }
+  h2 .num {
+    display: inline-grid;
+    place-items: center;
+    width: 1.6rem; height: 1.6rem;
+    border-radius: 50%;
+    background: var(--accent);
+    color: var(--accent-ink);
+    font-size: 0.9rem;
+    flex: none;
+  }
+  label { display: block; font-weight: bold; font-size: 0.95rem; margin: 0.75rem 0 0.25rem; }
+  label .hint { font-weight: normal; color: var(--muted); font-size: 0.85rem; }
+  input[type=text], select, textarea {
+    width: 100%;
+    font: inherit;
+    font-size: 16px; /* stops iPhone from zooming in on focus */
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.55rem 0.65rem;
+  }
+  textarea { min-height: 7rem; resize: vertical; line-height: 1.45; }
+  textarea.tall { min-height: 12rem; }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.5rem; }
+  .row label { margin-top: 0.75rem; }
+  @media (max-width: 480px) { .row { grid-template-columns: 1fr 1fr; } .row .wide { grid-column: span 2; } }
+  .buttons { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.75rem; }
+  button, .button {
+    font: inherit;
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--accent);
+    background: var(--card);
+    color: var(--accent);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+  }
+  button.primary, .button.primary { background: var(--accent); color: var(--accent-ink); }
+  button:disabled { opacity: 0.5; cursor: default; }
+  .grow { flex: 1 1 auto; }
+  input[type=file] { display: none; }
+  .status { margin-top: 0.75rem; font-size: 0.95rem; color: var(--muted); min-height: 1.2em; }
+  progress { width: 100%; height: 0.6rem; margin-top: 0.5rem; accent-color: var(--accent); }
+  .thumbs { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+  .thumbs img { width: 72px; height: 72px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+  .warn {
+    background: var(--warn-bg);
+    color: var(--warn);
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  .filename { font-family: Menlo, Consolas, monospace; font-size: 0.9rem; word-break: break-all; }
+  pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Menlo, Consolas, monospace;
+    font-size: 0.82rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 0.75rem;
+    max-height: 22rem;
+    overflow: auto;
+    margin: 0.5rem 0 0;
+  }
+  details summary { cursor: pointer; color: var(--muted); margin-top: 0.5rem; }
+  .or { text-align: center; color: var(--muted); margin: 0.75rem 0 0; font-style: italic; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Add a Recipe</h1>
+  <p class="lede">Photograph or paste a recipe, check it over, and save it as a file for Just Recipes.</p>
+
+  <!-- STEP 1: get the text -->
+  <section id="step1">
+    <h2><span class="num">1</span> Get the recipe text</h2>
+
+    <div class="buttons">
+      <label class="button primary grow" for="camera" style="margin:0">Take photo</label>
+      <label class="button grow" for="library" style="margin:0">Choose photos</label>
+    </div>
+    <input id="camera" type="file" accept="image/*" capture="environment">
+    <input id="library" type="file" accept="image/*" multiple>
+    <div class="thumbs" id="thumbs"></div>
+    <progress id="progress" value="0" max="1" hidden></progress>
+    <div class="status" id="ocrStatus"></div>
+
+    <p class="or">or paste the text</p>
+    <label for="raw">Recipe text <span class="hint">(photo text lands here too, so you can fix it)</span></label>
+    <textarea id="raw" class="tall" placeholder="Paste a recipe here. For handwritten cards, try iPhone Live Text: open the photo, press and hold the writing, tap Select All, then Copy."></textarea>
+    <div class="buttons">
+      <button type="button" class="primary grow" id="fillBtn">Fill in the form</button>
+      <button type="button" id="clearRaw">Clear</button>
+    </div>
+  </section>
+
+  <!-- STEP 2: review -->
+  <section id="step2">
+    <h2><span class="num">2</span> Check it over</h2>
+
+    <label for="title">Title</label>
+    <input type="text" id="title" autocomplete="off">
+
+    <label for="category">Category</label>
+    <select id="category"></select>
+    <input type="text" id="categoryOther" placeholder="New category name" hidden style="margin-top:0.5rem">
+
+    <label for="tags">Tags <span class="hint">(separate with commas)</span></label>
+    <input type="text" id="tags" autocomplete="off" placeholder="apple, pie, make-ahead">
+
+    <div class="row">
+      <div><label for="prep">Prep</label><input type="text" id="prep" placeholder="15 min"></div>
+      <div><label for="cook">Cook</label><input type="text" id="cook" placeholder="30 min"></div>
+      <div class="wide"><label for="servings">Servings</label><input type="text" id="servings" placeholder="4-6"></div>
+    </div>
+
+    <label for="ingredients">Ingredients <span class="hint">(one per line; a line ending in a colon becomes a subheading)</span></label>
+    <textarea id="ingredients" class="tall"></textarea>
+
+    <label for="directions">Directions <span class="hint">(one step per line, numbers added for you)</span></label>
+    <textarea id="directions" class="tall"></textarea>
+
+    <label for="notes">Notes <span class="hint">(optional, one per line)</span></label>
+    <textarea id="notes"></textarea>
+  </section>
+
+  <!-- STEP 3: save -->
+  <section id="step3">
+    <h2><span class="num">3</span> Save it</h2>
+    <div>File name: <span class="filename" id="filename">recipe.md</span></div>
+    <div class="warn" id="dupWarn" hidden></div>
+    <div class="warn" id="checkWarn" hidden></div>
+
+    <div class="buttons">
+      <button type="button" class="primary grow" id="githubBtn">Add to GitHub</button>
+      <button type="button" class="grow" id="downloadBtn">Download file</button>
+      <button type="button" class="grow" id="copyBtn">Copy text</button>
+    </div>
+    <div class="status" id="saveStatus"></div>
+
+    <details>
+      <summary>Preview the file</summary>
+      <pre id="preview"></pre>
+    </details>
+
+    <div class="buttons">
+      <button type="button" id="resetBtn">Start a new recipe</button>
+    </div>
+  </section>
+</main>
+
+<script>
+/* ---------- Settings ---------- */
+var REPO = "Eric15774/just-recipes";
+var BRANCH = "main";
+var RECIPE_FOLDER = "src/recipes";
+var CATEGORIES = [
+  "Appetizers and Starters", "Baking and Desserts", "Beverages", "Breads and Doughs",
+  "Breakfast and Brunch", "Cookies Etc.", "Experimental", "Garnishes and Sauces",
+  "Holiday and Special Occasions", "Main Courses", "Pizza", "Salads and Side Dishes",
+  "Super Sweets", "Vegetarian and Vegan"
+];
+var OCR_SCRIPT = "https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js";
+var DRAFT_KEY = "add-recipe-draft-v1";
+
+/* ---------- Helpers ---------- */
+function $(id) { return document.getElementById(id); }
+var FIELDS = ["raw", "title", "category", "categoryOther", "tags", "prep", "cook", "servings", "ingredients", "directions", "notes"];
+
+function slugify(s) {
+  return String(s).toLowerCase()
+    .replace(/[’']/g, "")
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+function titleCase(s) {
+  var small = /^(a|an|and|at|but|by|for|in|of|on|or|the|to|with)$/;
+  return s.toLowerCase().split(/\s+/).map(function (w, i) {
+    if (i > 0 && small.test(w)) return w;
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join(" ");
+}
+
+/* ---------- Text cleanup ---------- */
+var FRACTIONS = {
+  "½": "1/2", "⅓": "1/3", "⅔": "2/3", "¼": "1/4", "¾": "3/4",
+  "⅕": "1/5", "⅖": "2/5", "⅗": "3/5", "⅘": "4/5", "⅙": "1/6",
+  "⅚": "5/6", "⅛": "1/8", "⅜": "3/8", "⅝": "5/8", "⅞": "7/8"
+};
+
+function normalize(text) {
+  text = text.replace(/\r\n?/g, "\n");
+  // "1½" -> "1 1/2", "½" -> "1/2"
+  text = text.replace(/(\d)?([¼-¾⅐-⅞])/g, function (m, d, f) {
+    return (d ? d + " " : "") + (FRACTIONS[f] || f);
+  });
+  text = text.replace(/⁄/g, "/");                 // fraction slash
+  text = text.replace(/[‘’]/g, "'").replace(/[“”]/g, '"');
+  text = text.replace(/[–—]/g, "-");
+  text = text.replace(/ /g, " ");
+  text = text.replace(/[ \t]+/g, " ");
+  return text;
+}
+
+// Common photo-reading slips in quantities: "l/2" -> "1/2", "I cup" -> "1 cup"
+function fixQuantity(line) {
+  return line
+    .replace(/^[lI|](?=\s*\/\s*\d)/, "1")
+    .replace(/^[lI|](?=\s+(cups?|c\.|tbsp|tsp|tablespoons?|teaspoons?|lbs?|pounds?|oz|ounces?|pkg|package|can|stick|egg|large|small|medium|quart|pint)\b)/i, "1")
+    .replace(/(\d)\s*\/\s*(\d)/g, "$1/$2");
+}
+
+function stripBullet(line) {
+  return line.replace(/^\s*([-*•▪●·‣⁃o]|[□☐])\s+/, "").trim();
+}
+
+function fixTemps(s) {
+  return s
+    .replace(/(\d{3})\s*(?:°|\s?degrees?|deg\.?)\s*(?:\s*(?:F\b|Fahrenheit\b))?/gi, "$1°F")
+    .replace(/(\d{3})\s?F\b/g, "$1°F")
+    .replace(/°F°F/g, "°F");
+}
+
+/* ---------- Recipe parsing ---------- */
+var RX = {
+  ingHead: /^(ingredients?|you('ll| will) need|what you('ll)? need)\s*:?\s*$/i,
+  dirHead: /^(directions?|instructions?|method|preparation|steps|procedure|how to make( it)?|to make)\s*:?\s*$/i,
+  noteHead: /^(notes?|tips?|cook'?s notes?|variations?|hints?)\s*:?\s*$/i,
+  prep: /^\s*prep(aration)?\.?( time)?\s*[:\-]?\s*(.+)$/i,
+  cook: /^\s*(cook|bake|baking|cooking)( time)?\s*[:\-]\s*(.+)$/i,
+  cook2: /^\s*(cook|bake|baking|cooking) time\s*[:\-]?\s*(.+)$/i,
+  total: /^\s*(total|ready in)( time)?\s*[:\-]?\s*(.+)$/i,
+  serves: /^\s*(serves|servings?|yields?|makes|yield)\s*[:\-]?\s*(.+)$/i,
+  qty: /^(\d|[lI](?=\s*\/\s*\d)|a\s|an\s|one\s|two\s|three\s|four\s|half\s|pinch|dash|few|several|some\s|salt|pepper|\(?\d)/i,
+  unit: /\b(cups?|c\.|tbsp|tbs|tbl|tsp|tablespoons?|teaspoons?|lbs?|pounds?|oz|ounces?|pkg|packages?|cans?|sticks?|quarts?|qts?|pints?|pt|grams?|g|ml|liters?|cloves?|dash|pinch|slices?|envelopes?|jars?|boxes?|bunch)\b/i,
+  verbStart: /^(add|bake|beat|blend|boil|bring|brown|chill|chop|combine|cook|cool|cover|cream|cut|dissolve|divide|drain|drop|fold|fry|grease|heat|in a|knead|let|melt|mix|place|pour|preheat|put|reduce|refrigerate|remove|roll|saute|season|serve|set|shape|simmer|sift|slice|sprinkle|spread|stir|store|top|toss|transfer|turn|whisk|when|while|after|then|once)\b/i,
+  stepNum: /^\s*(step\s*)?(\d{1,2})\s*[.):\-]\s+/i
+};
+
+function looksLikeIngredient(line) {
+  if (line.length > 80) return false;
+  if (RX.verbStart.test(line)) return false;
+  if (RX.qty.test(line)) return true;
+  if (RX.unit.test(line) && line.length < 50) return true;
+  return false;
+}
+
+function sentenceEnd(s) { return /[.!?)]["']?$/.test(s.trim()); }
+
+function parseRecipe(text) {
+  var out = { title: "", prep: "", cook: "", servings: "", ingredients: [], directions: [], notes: [] };
+  var lines = normalize(text).split("\n").map(function (l) { return l.trim(); });
+
+  // Pull out metadata lines wherever they appear
+  var body = [];
+  lines.forEach(function (l) {
+    var m;
+    if (!l) { body.push(""); return; }
+    if ((m = l.match(RX.prep)) && l.length < 60) { out.prep = out.prep || cleanTime(m[3]); return; }
+    if ((m = l.match(RX.cook2)) && l.length < 60) { out.cook = out.cook || cleanTime(m[2]); return; }
+    if ((m = l.match(RX.cook)) && l.length < 40) { out.cook = out.cook || cleanTime(m[3]); return; }
+    if ((m = l.match(RX.total)) && l.length < 60) { return; }
+    if ((m = l.match(RX.serves)) && l.length < 50 && !/\bfor\b.*\bminutes?\b/i.test(l)) {
+      out.servings = out.servings || m[2].replace(/[.:]$/, "").trim();
+      return;
+    }
+    body.push(l);
+  });
+
+  // Title: first real line that is not a heading
+  for (var i = 0; i < body.length; i++) {
+    var l = body[i];
+    if (!l) continue;
+    if (RX.ingHead.test(l) || RX.dirHead.test(l) || RX.noteHead.test(l)) break;
+    if (l.length <= 70 && !looksLikeIngredient(l)) {
+      out.title = (l === l.toUpperCase() && /[A-Z]/.test(l)) ? titleCase(l) : l;
+      out.title = out.title.replace(/[:.]$/, "");
+      body.splice(i, 1);
+    }
+    break;
+  }
+
+  // Split into sections using headings if present
+  var sections = { pre: [], ing: [], dir: [], note: [] };
+  var current = "pre", sawHeading = false;
+  body.forEach(function (l) {
+    if (RX.ingHead.test(l)) { current = "ing"; sawHeading = true; return; }
+    if (RX.dirHead.test(l)) { current = "dir"; sawHeading = true; return; }
+    if (RX.noteHead.test(l)) { current = "note"; sawHeading = true; return; }
+    // "Note: something" on one line
+    var nm = l.match(/^(notes?|tip)\s*:\s*(.+)$/i);
+    if (nm) { sections.note.push(nm[2]); return; }
+    sections[current].push(l);
+  });
+
+  if (!sawHeading || (!sections.ing.length && !sections.dir.length)) {
+    // No headings: ingredient-looking lines up top, everything after is directions
+    var all = sections.pre.concat(sections.ing, sections.dir);
+    sections = { pre: [], ing: [], dir: [], note: sections.note };
+    var inDirections = false;
+    all.forEach(function (l) {
+      if (!inDirections && l && !looksLikeIngredient(l) && !/:$/.test(l)) {
+        // A short non-ingredient line right after ingredients may be a wrapped ingredient
+        var prev = sections.ing[sections.ing.length - 1];
+        if (prev && /^[a-z(]/.test(l) && l.length < 40) { sections.ing.push(l); return; }
+        if (sections.ing.length || RX.verbStart.test(l) || RX.stepNum.test(l) || l.length > 45) inDirections = true;
+      }
+      (inDirections ? sections.dir : sections.ing).push(l);
+    });
+  } else if (sections.pre.length) {
+    // Text before the first heading: keep ingredient-looking lines, drop the rest (often a blurb)
+    var lead = sections.pre.filter(function (l) { return l && looksLikeIngredient(l); });
+    sections.ing = lead.concat(sections.ing);
+  }
+
+  out.ingredients = buildIngredients(sections.ing);
+  out.directions = buildSteps(sections.dir);
+  out.notes = buildSteps(sections.note);
+
+  // If no cook time was given, take a bake/cook time from the directions
+  if (!out.cook) {
+    var joined = out.directions.join(" ");
+    var cm = joined.match(/\b(bake|cook|roast|simmer|fry|broil)\b[^.]*?\b(\d+(?:\s*(?:-|to)\s*\d+)?)\s*(minutes?|mins?|hours?|hrs?)\b/i);
+    if (cm) out.cook = cm[2].replace(/\s*to\s*/, "-").replace(/\s*-\s*/, "-") + " " + (/^h/i.test(cm[3]) ? "hr" : "min");
+  }
+  return out;
+}
+
+function cleanTime(s) {
+  return s.replace(/\bminutes?\b|\bmins?\.?/gi, "min")
+          .replace(/\bhours?\b|\bhrs?\.?/gi, "hr")
+          .replace(/[.:]$/, "").trim();
+}
+
+function buildIngredients(lines) {
+  var items = [];
+  lines.forEach(function (raw) {
+    if (!raw) return;
+    var l = fixQuantity(stripBullet(raw));
+    if (!l) return;
+    var prev = items[items.length - 1];
+    // Wrapped line from a photo: starts lowercase, no quantity, previous line not a subheading
+    if (prev && !/:$/.test(prev) && /^[a-z(]/.test(l) && !RX.qty.test(l) && l.length < 45) {
+      items[items.length - 1] = prev + " " + l;
+      return;
+    }
+    items.push(l);
+  });
+  return items;
+}
+
+function buildSteps(lines) {
+  var steps = [], buf = "";
+  var numbered = lines.some(function (l) { return RX.stepNum.test(l); });
+  function flush() { if (buf.trim()) steps.push(fixTemps(buf.trim())); buf = ""; }
+  lines.forEach(function (raw) {
+    if (!raw) { if (!numbered) flush(); return; }
+    var l = stripBullet(raw);
+    if (RX.stepNum.test(l)) { flush(); buf = l.replace(RX.stepNum, ""); return; }
+    if (numbered) { buf += (buf ? " " : "") + l; return; }
+    // Unnumbered: a line that follows a finished sentence starts a new step
+    if (buf && sentenceEnd(buf)) flush();
+    buf += (buf ? " " : "") + l;
+  });
+  flush();
+  return steps.map(function (s) { return s.replace(/\s+/g, " ").replace(/\s+([.,;])/g, "$1"); });
+}
+
+/* ---------- Building the markdown file ---------- */
+function yamlValue(s) {
+  // Quote anything YAML could misread
+  if (s === "") return '""';
+  if (/^[\d.\-\/ ]+$/.test(s) || /[:#\[\]{},&*!|>'"%@`]/.test(s) || /^\s|\s$/.test(s)) {
+    return '"' + s.replace(/\\/g, "\\\\").replace(/"/g, '\\"') + '"';
+  }
+  return s;
+}
+
+function lines(id) {
+  return $(id).value.split("\n").map(function (l) { return l.trim(); }).filter(Boolean);
+}
+
+function currentCategory() {
+  var v = $("category").value;
+  return v === "__other" ? $("categoryOther").value.trim() : v;
+}
+
+function buildMarkdown() {
+  var title = $("title").value.trim() || "Untitled Recipe";
+  var tags = $("tags").value.split(",").map(function (t) { return t.trim().toLowerCase(); }).filter(Boolean);
+  var fm = ["---", "layout: layouts/recipe.njk", "title: " + yamlValue(title),
+            "category: " + yamlValue(currentCategory() || "Experimental"),
+            "tags: [" + tags.map(function (t) { return /[,\[\]:#"']/.test(t) ? '"' + t.replace(/"/g, "") + '"' : t; }).join(", ") + "]"];
+  if ($("prep").value.trim()) fm.push("prep: " + yamlValue($("prep").value.trim()));
+  if ($("cook").value.trim()) fm.push("cook: " + yamlValue($("cook").value.trim()));
+  if ($("servings").value.trim()) fm.push('servings: "' + $("servings").value.trim().replace(/"/g, "") + '"');
+  fm.push("---");
+
+  var md = fm.join("\n") + "\n\n## Ingredients\n\n";
+  md += lines("ingredients").map(function (l) {
+    l = stripBullet(l);
+    if (/:$/.test(l) && l.length < 50) return "\n### " + l.replace(/:$/, "") + "\n";
+    return "- " + l;
+  }).join("\n").replace(/^\n/, "") + "\n";
+
+  md += "\n## Directions\n\n";
+  md += lines("directions").map(function (l, i) {
+    return (i + 1) + ". " + stripBullet(l).replace(RX.stepNum, "");
+  }).join("\n") + "\n";
+
+  var notes = lines("notes");
+  if (notes.length) md += "\n## Notes\n\n" + notes.map(function (n) { return "- " + stripBullet(n); }).join("\n") + "\n";
+  return md.replace(/\n{3,}/g, "\n\n");
+}
+
+function filename() {
+  return (slugify($("title").value) || "new-recipe") + ".md";
+}
+
+/* ---------- Existing recipes (for duplicate warning) ---------- */
+var existing = null;
+function loadExisting() {
+  fetch("https://api.github.com/repos/" + REPO + "/contents/" + RECIPE_FOLDER + "?ref=" + BRANCH)
+    .then(function (r) { return r.ok ? r.json() : []; })
+    .then(function (list) {
+      existing = new Set((list || []).map(function (f) { return f.name; }));
+      refresh();
+    })
+    .catch(function () {});
+}
+
+/* ---------- Screen updates ---------- */
+function refresh() {
+  var fn = filename();
+  $("filename").textContent = fn;
+  $("preview").textContent = buildMarkdown();
+
+  var dup = existing && existing.has(fn);
+  $("dupWarn").hidden = !dup;
+  if (dup) $("dupWarn").textContent = "A recipe named " + fn + " is already on the site. Change the title if this is a different recipe.";
+
+  var missing = [];
+  if (!$("title").value.trim()) missing.push("a title");
+  if (!lines("ingredients").length) missing.push("ingredients");
+  if (!lines("directions").length) missing.push("directions");
+  if ($("category").value === "__other" && !$("categoryOther").value.trim()) missing.push("a category name");
+  $("checkWarn").hidden = !missing.length;
+  if (missing.length) $("checkWarn").textContent = "Still needs " + missing.join(", ") + ".";
+  saveDraft();
+}
+
+function fillForm(r) {
+  $("title").value = r.title;
+  $("prep").value = r.prep;
+  $("cook").value = r.cook;
+  $("servings").value = r.servings;
+  $("ingredients").value = r.ingredients.join("\n");
+  $("directions").value = r.directions.join("\n");
+  $("notes").value = r.notes.join("\n");
+  refresh();
+}
+
+/* ---------- Draft saving (so a closed tab is not lost work) ---------- */
+function saveDraft() {
+  try {
+    var d = {};
+    FIELDS.forEach(function (f) { d[f] = $(f).value; });
+    localStorage.setItem(DRAFT_KEY, JSON.stringify(d));
+  } catch (e) {}
+}
+function loadDraft() {
+  try {
+    var d = JSON.parse(localStorage.getItem(DRAFT_KEY) || "null");
+    if (!d) return;
+    FIELDS.forEach(function (f) { if (d[f] != null) $(f).value = d[f]; });
+    $("categoryOther").hidden = $("category").value !== "__other";
+  } catch (e) {}
+}
+
+/* ---------- Photo reading ---------- */
+var ocrLoading = null;
+function loadOcr() {
+  if (window.Tesseract) return Promise.resolve();
+  if (ocrLoading) return ocrLoading;
+  ocrLoading = new Promise(function (resolve, reject) {
+    var s = document.createElement("script");
+    s.src = OCR_SCRIPT;
+    s.onload = resolve;
+    s.onerror = function () { ocrLoading = null; reject(new Error("Could not load the photo reader. Check your connection.")); };
+    document.head.appendChild(s);
+  });
+  return ocrLoading;
+}
+
+// Shrink big phone photos and boost contrast, which helps the reader a lot
+function prepareImage(file) {
+  return new Promise(function (resolve, reject) {
+    var url = URL.createObjectURL(file);
+    var img = new Image();
+    img.onload = function () {
+      var max = 2200, scale = Math.min(1, max / Math.max(img.width, img.height));
+      var c = document.createElement("canvas");
+      c.width = Math.round(img.width * scale);
+      c.height = Math.round(img.height * scale);
+      var ctx = c.getContext("2d");
+      ctx.drawImage(img, 0, 0, c.width, c.height);
+      var data = ctx.getImageData(0, 0, c.width, c.height), p = data.data;
+      for (var i = 0; i < p.length; i += 4) {
+        var g = 0.299 * p[i] + 0.587 * p[i + 1] + 0.114 * p[i + 2];
+        g = Math.max(0, Math.min(255, (g - 128) * 1.5 + 140));
+        p[i] = p[i + 1] = p[i + 2] = g;
+      }
+      ctx.putImageData(data, 0, 0);
+      URL.revokeObjectURL(url);
+      resolve(c);
+    };
+    img.onerror = function () { URL.revokeObjectURL(url); reject(new Error("That photo could not be opened.")); };
+    img.src = url;
+  });
+}
+
+function handlePhotos(files) {
+  files = Array.prototype.slice.call(files || []);
+  if (!files.length) return;
+  var status = $("ocrStatus"), bar = $("progress");
+  files.forEach(function (f) {
+    var t = document.createElement("img");
+    t.src = URL.createObjectURL(f);
+    t.alt = "Recipe photo";
+    $("thumbs").appendChild(t);
+  });
+  bar.hidden = false; bar.value = 0;
+  status.textContent = "Getting the photo reader ready (first time takes a moment)...";
+  $("fillBtn").disabled = true;
+
+  var texts = [], worker;
+  loadOcr()
+    .then(function () {
+      return Tesseract.createWorker("eng", 1, {
+        logger: function (m) {
+          if (m.status === "recognizing text") {
+            bar.value = (texts.length + m.progress) / files.length;
+            status.textContent = "Reading photo " + (texts.length + 1) + " of " + files.length + "...";
+          }
+        }
+      });
+    })
+    .then(function (w) {
+      worker = w;
+      return files.reduce(function (chain, f) {
+        return chain.then(function () { return prepareImage(f); })
+                    .then(function (canvas) { return worker.recognize(canvas); })
+                    .then(function (res) { texts.push(res.data.text.trim()); });
+      }, Promise.resolve());
+    })
+    .then(function () {
+      var raw = $("raw");
+      raw.value = (raw.value.trim() ? raw.value.trim() + "\n\n" : "") + texts.join("\n\n");
+      bar.value = 1;
+      status.textContent = "Done. Check the text below for misread words, then tap Fill in the form.";
+      fillForm(parseRecipe(raw.value));
+    })
+    .catch(function (e) {
+      status.textContent = (e && e.message) || "Something went wrong reading the photo.";
+    })
+    .then(function () {
+      if (worker) worker.terminate();
+      bar.hidden = true;
+      $("fillBtn").disabled = false;
+      $("camera").value = ""; $("library").value = "";
+    });
+}
+
+/* ---------- Saving ---------- */
+function download() {
+  var blob = new Blob([buildMarkdown()], { type: "text/markdown" });
+  var a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename();
+  document.body.appendChild(a);
+  a.click();
+  setTimeout(function () { URL.revokeObjectURL(a.href); a.remove(); }, 1000);
+  $("saveStatus").textContent = "Saved " + filename() + " to your Downloads.";
+}
+
+function copyText() {
+  var md = buildMarkdown();
+  var done = function () { $("saveStatus").textContent = "Copied. Paste it into a new file named " + filename() + "."; };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(md).then(done, fallback);
+  } else fallback();
+  function fallback() {
+    var t = document.createElement("textarea");
+    t.value = md; document.body.appendChild(t); t.select();
+    try { document.execCommand("copy"); done(); } catch (e) { $("saveStatus").textContent = "Copy did not work here. Use Download instead."; }
+    t.remove();
+  }
+}
+
+function openGitHub() {
+  if (existing && existing.has(filename()) && !confirm(filename() + " already exists. Open GitHub anyway?")) return;
+  var url = "https://github.com/" + REPO + "/new/" + BRANCH + "/" + RECIPE_FOLDER +
+            "?filename=" + encodeURIComponent(filename()) +
+            "&value=" + encodeURIComponent(buildMarkdown());
+  window.open(url, "_blank");
+  $("saveStatus").textContent = "GitHub opened with the recipe filled in. Look it over there and tap Commit changes to publish.";
+}
+
+function resetAll() {
+  if (!confirm("Clear everything and start a new recipe?")) return;
+  FIELDS.forEach(function (f) { $(f).value = ""; });
+  $("category").value = "";
+  $("categoryOther").hidden = true;
+  $("thumbs").innerHTML = "";
+  $("ocrStatus").textContent = "";
+  $("saveStatus").textContent = "";
+  try { localStorage.removeItem(DRAFT_KEY); } catch (e) {}
+  refresh();
+  window.scrollTo(0, 0);
+}
+
+/* ---------- Wire it up ---------- */
+(function init() {
+  var sel = $("category");
+  sel.innerHTML = '<option value="">Choose a category...</option>' +
+    CATEGORIES.map(function (c) { return '<option>' + c + '</option>'; }).join("") +
+    '<option value="__other">New category...</option>';
+  sel.addEventListener("change", function () {
+    $("categoryOther").hidden = sel.value !== "__other";
+    refresh();
+  });
+
+  $("camera").addEventListener("change", function (e) { handlePhotos(e.target.files); });
+  $("library").addEventListener("change", function (e) { handlePhotos(e.target.files); });
+  $("fillBtn").addEventListener("click", function () {
+    if (!$("raw").value.trim()) { $("ocrStatus").textContent = "Paste or photograph a recipe first."; return; }
+    fillForm(parseRecipe($("raw").value));
+    $("step2").scrollIntoView({ behavior: "smooth" });
+  });
+  $("clearRaw").addEventListener("click", function () { $("raw").value = ""; $("thumbs").innerHTML = ""; $("ocrStatus").textContent = ""; saveDraft(); });
+  $("githubBtn").addEventListener("click", openGitHub);
+  $("downloadBtn").addEventListener("click", download);
+  $("copyBtn").addEventListener("click", copyText);
+  $("resetBtn").addEventListener("click", resetAll);
+
+  FIELDS.forEach(function (f) { $(f).addEventListener("input", refresh); });
+
+  loadDraft();
+  refresh();
+  loadExisting();
+})();
+</script>
+</body>
+</html>
