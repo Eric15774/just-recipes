@@ -5,7 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }} | Just Recipes</title>
   <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <script>
+    // Holiday theme: on from Nov 1 through Dec 30 each year, off on Dec 31.
+    // To turn it off for good, delete this script and the holiday.css link below.
+    (function () {
+      var d = new Date(), m = d.getMonth() + 1, day = d.getDate();
+      if (m === 11 || (m === 12 && day <= 30)) {
+        document.documentElement.classList.add("holiday");
+      }
+    })();
+  </script>
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/holiday.css">
   <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 </head>
 <body>
